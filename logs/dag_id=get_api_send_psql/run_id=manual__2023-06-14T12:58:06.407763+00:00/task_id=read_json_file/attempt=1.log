@@ -1,0 +1,13 @@
+[2023-06-14T12:58:20.691+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_api_send_psql.read_json_file manual__2023-06-14T12:58:06.407763+00:00 [queued]>
+[2023-06-14T12:58:20.707+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_api_send_psql.read_json_file manual__2023-06-14T12:58:06.407763+00:00 [queued]>
+[2023-06-14T12:58:20.708+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-14T12:58:20.729+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): read_json_file> on 2023-06-14 12:58:06.407763+00:00
+[2023-06-14T12:58:20.738+0000] {standard_task_runner.py:57} INFO - Started process 2219 to run task
+[2023-06-14T12:58:20.745+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_api_send_psql', 'read_json_file', 'manual__2023-06-14T12:58:06.407763+00:00', '--job-id', '1485', '--raw', '--subdir', 'DAGS_FOLDER/end_to_end_pipeline_***.py', '--cfg-path', '/tmp/tmpr5n7pcft']
+[2023-06-14T12:58:20.749+0000] {standard_task_runner.py:85} INFO - Job 1485: Subtask read_json_file
+[2023-06-14T12:58:20.815+0000] {task_command.py:410} INFO - Running <TaskInstance: get_api_send_psql.read_json_file manual__2023-06-14T12:58:06.407763+00:00 [running]> on host cd01a659cc96
+[2023-06-14T12:58:20.929+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_api_send_psql' AIRFLOW_CTX_TASK_ID='read_json_file' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T12:58:06.407763+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-14T12:58:06.407763+00:00'
+[2023-06-14T12:58:20.977+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-14T12:58:20.994+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_api_send_psql, task_id=read_json_file, execution_date=20230614T125806, start_date=20230614T125820, end_date=20230614T125820
+[2023-06-14T12:58:21.039+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-14T12:58:21.081+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

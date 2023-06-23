@@ -1,0 +1,22 @@
+[2023-06-14T19:43:04.355+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_university_api_send_psql.read_json_file manual__2023-06-14T19:42:39.117425+00:00 [queued]>
+[2023-06-14T19:43:04.372+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_university_api_send_psql.read_json_file manual__2023-06-14T19:42:39.117425+00:00 [queued]>
+[2023-06-14T19:43:04.373+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-14T19:43:04.397+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): read_json_file> on 2023-06-14 19:42:39.117425+00:00
+[2023-06-14T19:43:04.407+0000] {standard_task_runner.py:57} INFO - Started process 9499 to run task
+[2023-06-14T19:43:04.413+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_university_api_send_psql', 'read_json_file', 'manual__2023-06-14T19:42:39.117425+00:00', '--job-id', '1694', '--raw', '--subdir', 'DAGS_FOLDER/data-university-from-api-dag/data_university_from_api_dag.py', '--cfg-path', '/tmp/tmpy0lm4z83']
+[2023-06-14T19:43:04.418+0000] {standard_task_runner.py:85} INFO - Job 1694: Subtask read_json_file
+[2023-06-14T19:43:04.514+0000] {task_command.py:410} INFO - Running <TaskInstance: get_university_api_send_psql.read_json_file manual__2023-06-14T19:42:39.117425+00:00 [running]> on host cd01a659cc96
+[2023-06-14T19:43:04.641+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_university_api_send_psql' AIRFLOW_CTX_TASK_ID='read_json_file' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T19:42:39.117425+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-14T19:42:39.117425+00:00'
+[2023-06-14T19:43:04.673+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py", line 84, in _read_json_file
+    'country': json_object['country'],
+TypeError: list indices must be integers or slices, not str
+[2023-06-14T19:43:04.692+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=get_university_api_send_psql, task_id=read_json_file, execution_date=20230614T194239, start_date=20230614T194304, end_date=20230614T194304
+[2023-06-14T19:43:04.726+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 1694 for task read_json_file (list indices must be integers or slices, not str; 9499)
+[2023-06-14T19:43:04.753+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-14T19:43:04.796+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

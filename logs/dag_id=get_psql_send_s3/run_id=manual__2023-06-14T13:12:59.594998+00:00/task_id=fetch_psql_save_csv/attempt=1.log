@@ -1,0 +1,14 @@
+[2023-06-14T13:13:01.847+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_psql_send_s3.fetch_psql_save_csv manual__2023-06-14T13:12:59.594998+00:00 [queued]>
+[2023-06-14T13:13:01.865+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_psql_send_s3.fetch_psql_save_csv manual__2023-06-14T13:12:59.594998+00:00 [queued]>
+[2023-06-14T13:13:01.867+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-14T13:13:01.888+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_psql_save_csv> on 2023-06-14 13:12:59.594998+00:00
+[2023-06-14T13:13:01.896+0000] {standard_task_runner.py:57} INFO - Started process 2525 to run task
+[2023-06-14T13:13:01.903+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_psql_send_s3', 'fetch_psql_save_csv', 'manual__2023-06-14T13:12:59.594998+00:00', '--job-id', '1506', '--raw', '--subdir', 'DAGS_FOLDER/end_to_end_pipeline_***.py', '--cfg-path', '/tmp/tmpg_zirsnx']
+[2023-06-14T13:13:01.906+0000] {standard_task_runner.py:85} INFO - Job 1506: Subtask fetch_psql_save_csv
+[2023-06-14T13:13:01.980+0000] {task_command.py:410} INFO - Running <TaskInstance: get_psql_send_s3.fetch_psql_save_csv manual__2023-06-14T13:12:59.594998+00:00 [running]> on host cd01a659cc96
+[2023-06-14T13:13:02.106+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_psql_send_s3' AIRFLOW_CTX_TASK_ID='fetch_psql_save_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T13:12:59.594998+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-14T13:12:59.594998+00:00'
+[2023-06-14T13:13:02.454+0000] {logging_mixin.py:149} INFO - Dataframe saved!
+[2023-06-14T13:13:02.456+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-14T13:13:02.478+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_psql_send_s3, task_id=fetch_psql_save_csv, execution_date=20230614T131259, start_date=20230614T131301, end_date=20230614T131302
+[2023-06-14T13:13:02.519+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-14T13:13:02.564+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

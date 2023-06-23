@@ -1,0 +1,14 @@
+[2023-06-15T14:37:08.637+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_psql_data_send_s3.fetch_psql_save_csv manual__2023-06-15T14:37:04.681929+00:00 [queued]>
+[2023-06-15T14:37:08.653+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_psql_data_send_s3.fetch_psql_save_csv manual__2023-06-15T14:37:04.681929+00:00 [queued]>
+[2023-06-15T14:37:08.654+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-15T14:37:08.674+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_psql_save_csv> on 2023-06-15 14:37:04.681929+00:00
+[2023-06-15T14:37:08.684+0000] {standard_task_runner.py:57} INFO - Started process 1185 to run task
+[2023-06-15T14:37:08.690+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_psql_data_send_s3', 'fetch_psql_save_csv', 'manual__2023-06-15T14:37:04.681929+00:00', '--job-id', '1928', '--raw', '--subdir', 'DAGS_FOLDER/data-university-from-api-dag/data_university_from_api_dag.py', '--cfg-path', '/tmp/tmpzkvie6tv']
+[2023-06-15T14:37:08.695+0000] {standard_task_runner.py:85} INFO - Job 1928: Subtask fetch_psql_save_csv
+[2023-06-15T14:37:08.762+0000] {task_command.py:410} INFO - Running <TaskInstance: get_psql_data_send_s3.fetch_psql_save_csv manual__2023-06-15T14:37:04.681929+00:00 [running]> on host cd01a659cc96
+[2023-06-15T14:37:08.878+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_psql_data_send_s3' AIRFLOW_CTX_TASK_ID='fetch_psql_save_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-06-15T14:37:04.681929+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-15T14:37:04.681929+00:00'
+[2023-06-15T14:37:09.310+0000] {logging_mixin.py:149} INFO - Dataframe saved!
+[2023-06-15T14:37:09.316+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-15T14:37:09.340+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_psql_data_send_s3, task_id=fetch_psql_save_csv, execution_date=20230615T143704, start_date=20230615T143708, end_date=20230615T143709
+[2023-06-15T14:37:09.390+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-15T14:37:09.440+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

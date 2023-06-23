@@ -1,0 +1,14 @@
+[2023-06-14T20:43:59.497+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_university_api_send_psql.fetch_and_save manual__2023-06-14T20:43:55.978881+00:00 [queued]>
+[2023-06-14T20:43:59.521+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_university_api_send_psql.fetch_and_save manual__2023-06-14T20:43:55.978881+00:00 [queued]>
+[2023-06-14T20:43:59.523+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-14T20:43:59.553+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_and_save> on 2023-06-14 20:43:55.978881+00:00
+[2023-06-14T20:43:59.566+0000] {standard_task_runner.py:57} INFO - Started process 10252 to run task
+[2023-06-14T20:43:59.574+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_university_api_send_psql', 'fetch_and_save', 'manual__2023-06-14T20:43:55.978881+00:00', '--job-id', '1710', '--raw', '--subdir', 'DAGS_FOLDER/data-university-from-api-dag/data_university_from_api_dag.py', '--cfg-path', '/tmp/tmpwow3ggln']
+[2023-06-14T20:43:59.579+0000] {standard_task_runner.py:85} INFO - Job 1710: Subtask fetch_and_save
+[2023-06-14T20:43:59.674+0000] {task_command.py:410} INFO - Running <TaskInstance: get_university_api_send_psql.fetch_and_save manual__2023-06-14T20:43:55.978881+00:00 [running]> on host cd01a659cc96
+[2023-06-14T20:43:59.814+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_university_api_send_psql' AIRFLOW_CTX_TASK_ID='fetch_and_save' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T20:43:55.978881+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-14T20:43:55.978881+00:00'
+[2023-06-14T20:44:07.117+0000] {logging_mixin.py:149} INFO - Data has been loaded into CSV: /tmp/json_file/data_university.csv
+[2023-06-14T20:44:07.125+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-14T20:44:07.151+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_university_api_send_psql, task_id=fetch_and_save, execution_date=20230614T204355, start_date=20230614T204359, end_date=20230614T204407
+[2023-06-14T20:44:07.205+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-14T20:44:07.274+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

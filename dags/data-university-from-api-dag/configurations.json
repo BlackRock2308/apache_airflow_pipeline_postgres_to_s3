@@ -1,0 +1,9 @@
+{
+"aws_secret_access_key": "A9kCZJ/YsULy5JZMzidb0Oed9WOE9yM3M+KBHGkS",
+"aws_access_key_id":"AKIA6HFCDXPJK5PU23MI",
+"service_name":"s3",
+"region_name":"us-west-2",
+"bucket_name":"groot-apache-airflow-bucket",
+"file_name":"data_university.csv"
+
+}

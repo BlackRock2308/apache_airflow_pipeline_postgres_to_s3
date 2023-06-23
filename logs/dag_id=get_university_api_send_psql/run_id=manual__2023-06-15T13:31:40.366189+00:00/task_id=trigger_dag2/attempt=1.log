@@ -1,0 +1,12 @@
+[2023-06-15T13:43:47.957+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_university_api_send_psql.trigger_dag2 manual__2023-06-15T13:31:40.366189+00:00 [queued]>
+[2023-06-15T13:43:47.978+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_university_api_send_psql.trigger_dag2 manual__2023-06-15T13:31:40.366189+00:00 [queued]>
+[2023-06-15T13:43:47.980+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-15T13:43:47.999+0000] {taskinstance.py:1327} INFO - Executing <Task(TriggerDagRunOperator): trigger_dag2> on 2023-06-15 13:31:40.366189+00:00
+[2023-06-15T13:43:48.008+0000] {standard_task_runner.py:57} INFO - Started process 452 to run task
+[2023-06-15T13:43:48.015+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_university_api_send_psql', 'trigger_dag2', 'manual__2023-06-15T13:31:40.366189+00:00', '--job-id', '1915', '--raw', '--subdir', 'DAGS_FOLDER/data-university-from-api-dag/data_university_from_api_dag.py', '--cfg-path', '/tmp/tmpor0xgzzo']
+[2023-06-15T13:43:48.018+0000] {standard_task_runner.py:85} INFO - Job 1915: Subtask trigger_dag2
+[2023-06-15T13:43:48.088+0000] {task_command.py:410} INFO - Running <TaskInstance: get_university_api_send_psql.trigger_dag2 manual__2023-06-15T13:31:40.366189+00:00 [running]> on host cd01a659cc96
+[2023-06-15T13:43:48.204+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_university_api_send_psql' AIRFLOW_CTX_TASK_ID='trigger_dag2' AIRFLOW_CTX_EXECUTION_DATE='2023-06-15T13:31:40.366189+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-15T13:31:40.366189+00:00'
+[2023-06-15T13:43:48.314+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_university_api_send_psql, task_id=trigger_dag2, execution_date=20230615T133140, start_date=20230615T134347, end_date=20230615T134348
+[2023-06-15T13:43:48.349+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-15T13:43:48.374+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
