@@ -1,0 +1,22 @@
+[2024-01-30T15:11:47.095+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_s3_csv_files.fetch_csv_files_task manual__2024-01-30T15:11:09.364397+00:00 [queued]>
+[2024-01-30T15:11:47.149+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_s3_csv_files.fetch_csv_files_task manual__2024-01-30T15:11:09.364397+00:00 [queued]>
+[2024-01-30T15:11:47.165+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-01-30T15:11:47.417+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_csv_files_task> on 2024-01-30 15:11:09.364397+00:00
+[2024-01-30T15:11:48.045+0000] {standard_task_runner.py:57} INFO - Started process 2038 to run task
+[2024-01-30T15:11:48.084+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'fetch_s3_csv_files', 'fetch_csv_files_task', 'manual__2024-01-30T15:11:09.364397+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpin8p03f7']
+[2024-01-30T15:11:48.380+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask fetch_csv_files_task
+[2024-01-30T15:11:48.647+0000] {task_command.py:410} INFO - Running <TaskInstance: fetch_s3_csv_files.fetch_csv_files_task manual__2024-01-30T15:11:09.364397+00:00 [running]> on host 952b3f8a1a94
+[2024-01-30T15:11:48.831+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_s3_csv_files' AIRFLOW_CTX_TASK_ID='fetch_csv_files_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T15:11:09.364397+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-30T15:11:09.364397+00:00'
+[2024-01-30T15:11:48.846+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/energy-prod-cons-dag/data_energy_dag.py", line 36, in _fetch_csv_files
+    with open(CUR_DIR + 'config.json', 'r') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/energy-prod-cons-dagconfig.json'
+[2024-01-30T15:11:48.881+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=fetch_s3_csv_files, task_id=fetch_csv_files_task, execution_date=20240130T151109, start_date=20240130T151147, end_date=20240130T151148
+[2024-01-30T15:11:48.921+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 5 for task fetch_csv_files_task ([Errno 2] No such file or directory: '/opt/airflow/dags/energy-prod-cons-dagconfig.json'; 2038)
+[2024-01-30T15:11:48.950+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-01-30T15:11:48.992+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

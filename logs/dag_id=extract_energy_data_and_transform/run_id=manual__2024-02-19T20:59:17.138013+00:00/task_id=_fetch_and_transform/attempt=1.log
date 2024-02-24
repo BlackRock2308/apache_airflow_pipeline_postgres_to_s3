@@ -1,0 +1,31 @@
+[2024-02-19T20:59:23.849+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform._fetch_and_transform manual__2024-02-19T20:59:17.138013+00:00 [queued]>
+[2024-02-19T20:59:23.881+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform._fetch_and_transform manual__2024-02-19T20:59:17.138013+00:00 [queued]>
+[2024-02-19T20:59:23.883+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-19T20:59:23.931+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): _fetch_and_transform> on 2024-02-19 20:59:17.138013+00:00
+[2024-02-19T20:59:23.953+0000] {standard_task_runner.py:57} INFO - Started process 1108 to run task
+[2024-02-19T20:59:23.966+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', '_fetch_and_transform', 'manual__2024-02-19T20:59:17.138013+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpicg5b_gq']
+[2024-02-19T20:59:23.971+0000] {standard_task_runner.py:85} INFO - Job 269: Subtask _fetch_and_transform
+[2024-02-19T20:59:24.103+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform._fetch_and_transform manual__2024-02-19T20:59:17.138013+00:00 [running]> on host 952b3f8a1a94
+[2024-02-19T20:59:24.251+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='_fetch_and_transform' AIRFLOW_CTX_EXECUTION_DATE='2024-02-19T20:59:17.138013+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-19T20:59:17.138013+00:00'
+[2024-02-19T20:59:24.257+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/operators/python.py:198: FutureWarning: The error_bad_lines argument has been deprecated and will be removed in a future version.
+
+
+  return self.python_callable(*self.op_args, **self.op_kwargs)
+
+[2024-02-19T21:00:13.695+0000] {logging_mixin.py:149} INFO - ******* STARTING columns ******  : Index(['operateur', 'annee', 'filiere', 'code_categorie_consommation',
+       'libelle_categorie_consommation', 'code_grand_secteur',
+       'libelle_grand_secteur', 'code_naf', 'libelle_secteur_naf2', 'conso',
+       'pdl', 'indqual', 'nombre_mailles_secretisees', 'code_region',
+       'libelle_region'],
+      dtype='object')
+[2024-02-19T21:00:13.700+0000] {logging_mixin.py:149} INFO - Strip leading and trailing whitespaces from column names
+[2024-02-19T21:00:13.998+0000] {logging_mixin.py:149} INFO - conso_energy_region Data has been loaded into CSV: /tmp/csv_file/conso_energy_region.csv
+[2024-02-19T21:00:14.000+0000] {logging_mixin.py:149} INFO - conso_energy_dept Data has been loaded into CSV: /tmp/csv_file/conso_energy_dept.csv
+[2024-02-19T21:00:14.002+0000] {logging_mixin.py:149} INFO - prod_gaz_region Data has been loaded into CSV: /tmp/csv_file/prod_gaz_region.csv
+[2024-02-19T21:00:14.003+0000] {logging_mixin.py:149} INFO - prod_gaz_dept Data has been loaded into CSV: /tmp/csv_file/prod_gaz_dept.csv
+[2024-02-19T21:00:14.005+0000] {logging_mixin.py:149} INFO - prod_elec_region Data has been loaded into CSV: /tmp/csv_file/prod_elec_region.csv
+[2024-02-19T21:00:14.007+0000] {logging_mixin.py:149} INFO - prod_elec_dept Data has been loaded into CSV: /tmp/csv_file/prod_elec_dept.csv
+[2024-02-19T21:00:14.009+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-02-19T21:00:14.030+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=extract_energy_data_and_transform, task_id=_fetch_and_transform, execution_date=20240219T205917, start_date=20240219T205923, end_date=20240219T210014
+[2024-02-19T21:00:14.099+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-19T21:00:14.163+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

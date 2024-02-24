@@ -1,0 +1,15 @@
+[2024-02-06T14:58:47.279+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_energy_data_send_psql.fetch_and_save manual__2024-02-06T14:58:38.181217+00:00 [queued]>
+[2024-02-06T14:58:47.299+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_energy_data_send_psql.fetch_and_save manual__2024-02-06T14:58:38.181217+00:00 [queued]>
+[2024-02-06T14:58:47.303+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-06T14:58:47.343+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fetch_and_save> on 2024-02-06 14:58:38.181217+00:00
+[2024-02-06T14:58:47.359+0000] {standard_task_runner.py:57} INFO - Started process 1842 to run task
+[2024-02-06T14:58:47.379+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_energy_data_send_psql', 'fetch_and_save', 'manual__2024-02-06T14:58:38.181217+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpuse1d071']
+[2024-02-06T14:58:47.400+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask fetch_and_save
+[2024-02-06T14:58:47.561+0000] {task_command.py:410} INFO - Running <TaskInstance: get_energy_data_send_psql.fetch_and_save manual__2024-02-06T14:58:38.181217+00:00 [running]> on host 952b3f8a1a94
+[2024-02-06T14:58:49.215+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_energy_data_send_psql' AIRFLOW_CTX_TASK_ID='fetch_and_save' AIRFLOW_CTX_EXECUTION_DATE='2024-02-06T14:58:38.181217+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-06T14:58:38.181217+00:00'
+[2024-02-06T14:58:52.108+0000] {logging_mixin.py:149} INFO - conso_energy_region Data has been loaded into CSV: /tmp/csv_file/conso_energy_region.csv
+[2024-02-06T14:58:52.111+0000] {logging_mixin.py:149} INFO - conso_energy_dept Data has been loaded into CSV: /tmp/csv_file/conso_energy_region.csv
+[2024-02-06T14:58:52.115+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-02-06T14:58:52.147+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_energy_data_send_psql, task_id=fetch_and_save, execution_date=20240206T145838, start_date=20240206T145847, end_date=20240206T145852
+[2024-02-06T14:58:52.249+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-06T14:58:52.348+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

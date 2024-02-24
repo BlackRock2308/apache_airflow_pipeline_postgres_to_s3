@@ -1,0 +1,14 @@
+[2024-02-06T16:35:54.254+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_energy_data_send_psql.wait_for_conso_dept_csv manual__2024-02-06T16:35:25.042468+00:00 [queued]>
+[2024-02-06T16:35:54.294+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_energy_data_send_psql.wait_for_conso_dept_csv manual__2024-02-06T16:35:25.042468+00:00 [queued]>
+[2024-02-06T16:35:54.296+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-06T16:35:54.361+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_conso_dept_csv> on 2024-02-06 16:35:25.042468+00:00
+[2024-02-06T16:35:54.376+0000] {standard_task_runner.py:57} INFO - Started process 3510 to run task
+[2024-02-06T16:35:54.392+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_energy_data_send_psql', 'wait_for_conso_dept_csv', 'manual__2024-02-06T16:35:25.042468+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpmpw5uw_h']
+[2024-02-06T16:35:54.401+0000] {standard_task_runner.py:85} INFO - Job 88: Subtask wait_for_conso_dept_csv
+[2024-02-06T16:35:54.533+0000] {task_command.py:410} INFO - Running <TaskInstance: get_energy_data_send_psql.wait_for_conso_dept_csv manual__2024-02-06T16:35:25.042468+00:00 [running]> on host 952b3f8a1a94
+[2024-02-06T16:35:54.699+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_energy_data_send_psql' AIRFLOW_CTX_TASK_ID='wait_for_conso_dept_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-02-06T16:35:25.042468+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-06T16:35:25.042468+00:00'
+[2024-02-06T16:35:54.725+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f2815d6ee60>
+[2024-02-06T16:35:54.730+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-02-06T16:35:54.755+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_energy_data_send_psql, task_id=wait_for_conso_dept_csv, execution_date=20240206T163525, start_date=20240206T163554, end_date=20240206T163554
+[2024-02-06T16:35:54.810+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-06T16:35:54.891+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+[2024-01-30T12:08:06.895+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_university_api_send_psql.wait_for_json manual__2024-01-30T12:07:05.069528+00:00 [queued]>
+[2024-01-30T12:08:06.943+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_university_api_send_psql.wait_for_json manual__2024-01-30T12:07:05.069528+00:00 [queued]>
+[2024-01-30T12:08:06.947+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-01-30T12:08:07.037+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_json> on 2024-01-30 12:07:05.069528+00:00
+[2024-01-30T12:08:07.072+0000] {standard_task_runner.py:57} INFO - Started process 640 to run task
+[2024-01-30T12:08:07.099+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_university_api_send_psql', 'wait_for_json', 'manual__2024-01-30T12:07:05.069528+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmppcn35p7h']
+[2024-01-30T12:08:07.111+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask wait_for_json
+[2024-01-30T12:08:07.577+0000] {task_command.py:410} INFO - Running <TaskInstance: get_university_api_send_psql.wait_for_json manual__2024-01-30T12:07:05.069528+00:00 [running]> on host da23bfa12ada
+[2024-01-30T12:08:08.081+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_university_api_send_psql' AIRFLOW_CTX_TASK_ID='wait_for_json' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T12:07:05.069528+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-30T12:07:05.069528+00:00'
+[2024-01-30T12:08:08.149+0000] {python.py:72} INFO - Poking callable: <function _wait_for_json at 0x7f0291159050>
+[2024-01-30T12:08:08.168+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-01-30T12:08:08.349+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_university_api_send_psql, task_id=wait_for_json, execution_date=20240130T120705, start_date=20240130T120806, end_date=20240130T120808
+[2024-01-30T12:08:08.477+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-01-30T12:08:08.616+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

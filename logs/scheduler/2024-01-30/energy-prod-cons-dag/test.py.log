@@ -1,0 +1,504 @@
+[2024-01-30T16:13:02.653+0000] {processor.py:157} INFO - Started process (PID=5764) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:02.656+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:13:02.659+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:02.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:02.891+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:02.884+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 23, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:13:02.894+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:02.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.285 seconds
+[2024-01-30T16:13:33.312+0000] {processor.py:157} INFO - Started process (PID=5778) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:33.316+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:13:33.321+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:33.321+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:33.624+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:33.620+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 23, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:13:33.627+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:33.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.377 seconds
+[2024-01-30T16:13:37.818+0000] {processor.py:157} INFO - Started process (PID=5779) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:37.844+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:13:38.011+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:38.011+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:38.770+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:38.715+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 45, in <module>
+    'local_path': '/tmp/csv_files/'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2361, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2024-01-30T16:13:38.775+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:38.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.082 seconds
+[2024-01-30T16:13:39.926+0000] {processor.py:157} INFO - Started process (PID=5780) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:39.929+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:13:39.932+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:39.932+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:40.160+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:13:40.154+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 45, in <module>
+    'local_path': '/tmp/csv_files/'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2361, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2024-01-30T16:13:40.163+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:13:40.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.281 seconds
+[2024-01-30T16:14:10.283+0000] {processor.py:157} INFO - Started process (PID=5795) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:10.290+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:14:10.294+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:10.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:10.531+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:10.521+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 45, in <module>
+    'local_path': '/tmp/csv_files/'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 922, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1056, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1114, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2361, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2024-01-30T16:14:10.534+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:10.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.305 seconds
+[2024-01-30T16:14:11.690+0000] {processor.py:157} INFO - Started process (PID=5796) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:11.694+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:14:11.708+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:11.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:12.024+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:12.018+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 23, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:14:12.028+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:12.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.404 seconds
+[2024-01-30T16:14:39.427+0000] {processor.py:157} INFO - Started process (PID=5810) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:39.433+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:14:39.436+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:39.436+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:39.732+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:39.729+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 22, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:14:39.746+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:39.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.380 seconds
+[2024-01-30T16:14:47.637+0000] {processor.py:157} INFO - Started process (PID=5818) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:47.642+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:14:47.645+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:47.645+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:47.961+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:47.955+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 22, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:14:47.969+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:47.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.367 seconds
+[2024-01-30T16:14:53.954+0000] {processor.py:157} INFO - Started process (PID=5820) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:53.958+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:14:53.962+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:53.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:54.247+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:14:54.242+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 22, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:14:54.252+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:14:54.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.355 seconds
+[2024-01-30T16:15:07.573+0000] {processor.py:157} INFO - Started process (PID=5826) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:07.575+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:15:07.578+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:07.578+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:07.839+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:07.835+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 22, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:15:07.842+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:07.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.310 seconds
+[2024-01-30T16:15:38.728+0000] {processor.py:157} INFO - Started process (PID=5840) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:38.731+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:15:38.735+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:38.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:38.911+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:38.908+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/energy-prod-cons-dag/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/energy-prod-cons-dag/test.py", line 22, in <module>
+    start_date=airflow.utils.dates.days_ago(1),
+NameError: name 'airflow' is not defined
+[2024-01-30T16:15:38.914+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:38.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.225 seconds
+[2024-01-30T16:15:51.937+0000] {processor.py:157} INFO - Started process (PID=5849) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:51.945+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:15:51.960+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:51.959+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:53.275+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:15:53.628+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:53.628+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:test_fetch_s3_csv_files
+[2024-01-30T16:15:53.680+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:53.680+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:test_fetch_s3_csv_files
+[2024-01-30T16:15:53.703+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:53.703+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:test_fetch_s3_csv_files
+[2024-01-30T16:15:53.706+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:53.705+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:15:53.732+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:53.731+0000] {dag.py:2747} INFO - Creating ORM DAG for test_fetch_s3_csv_files
+[2024-01-30T16:15:53.750+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:15:53.749+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:15:53.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.864 seconds
+[2024-01-30T16:16:24.220+0000] {processor.py:157} INFO - Started process (PID=5867) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:16:24.288+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:16:24.292+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:16:24.291+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:16:30.298+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:16:30.674+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:16:30.673+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:16:30.997+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:16:30.996+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:16:31.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 6.926 seconds
+[2024-01-30T16:17:01.464+0000] {processor.py:157} INFO - Started process (PID=5885) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:17:01.469+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:17:01.472+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:17:01.472+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:17:08.002+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:17:08.144+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:17:08.144+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:17:08.270+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:17:08.269+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:17:08.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 6.875 seconds
+[2024-01-30T16:17:39.077+0000] {processor.py:157} INFO - Started process (PID=5903) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:17:39.079+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:17:39.083+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:17:39.083+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:17:39.851+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:17:39.880+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:17:39.879+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:17:39.916+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:17:39.915+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:17:39.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.869 seconds
+[2024-01-30T16:18:10.524+0000] {processor.py:157} INFO - Started process (PID=5921) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:18:10.529+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:18:10.531+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:18:10.531+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:18:11.441+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:18:11.488+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:18:11.487+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:18:11.562+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:18:11.562+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:18:11.594+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.075 seconds
+[2024-01-30T16:18:42.605+0000] {processor.py:157} INFO - Started process (PID=5938) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:18:42.611+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:18:42.613+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:18:42.613+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:18:43.648+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:18:43.696+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:18:43.692+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:18:43.742+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:18:43.742+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:18:43.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.179 seconds
+[2024-01-30T16:19:13.974+0000] {processor.py:157} INFO - Started process (PID=5956) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:19:13.977+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:19:13.980+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:19:13.980+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:19:14.689+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:19:14.719+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:19:14.718+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:19:14.750+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:19:14.750+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:19:14.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.807 seconds
+[2024-01-30T16:19:45.310+0000] {processor.py:157} INFO - Started process (PID=5974) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:19:45.314+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:19:45.317+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:19:45.317+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:19:46.511+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:19:46.544+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:19:46.544+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:19:46.591+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:19:46.591+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:19:46.662+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.358 seconds
+[2024-01-30T16:20:05.806+0000] {processor.py:157} INFO - Started process (PID=5992) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:20:05.809+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:20:05.812+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:20:05.811+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:20:06.564+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:20:06.591+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:20:06.591+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:20:06.625+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:20:06.625+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:20:06.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.857 seconds
+[2024-01-30T16:20:38.032+0000] {processor.py:157} INFO - Started process (PID=6010) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:20:38.060+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:20:38.068+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:20:38.068+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:20:40.260+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:20:40.301+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:20:40.300+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:20:40.337+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:20:40.337+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:20:40.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 2.371 seconds
+[2024-01-30T16:21:11.100+0000] {processor.py:157} INFO - Started process (PID=6028) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:21:11.103+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:21:11.105+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:21:11.105+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:21:11.814+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:21:11.842+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:21:11.842+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:21:11.875+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:21:11.875+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:21:11.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.807 seconds
+[2024-01-30T16:21:42.296+0000] {processor.py:157} INFO - Started process (PID=6046) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:21:42.300+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:21:42.309+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:21:42.308+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:21:43.219+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:21:43.256+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:21:43.256+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:21:43.288+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:21:43.288+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:21:43.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.023 seconds
+[2024-01-30T16:22:13.568+0000] {processor.py:157} INFO - Started process (PID=6065) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:22:13.571+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:22:13.574+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:22:13.574+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:22:14.296+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:22:14.324+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:22:14.324+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:22:14.355+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:22:14.355+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:22:14.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.819 seconds
+[2024-01-30T16:22:45.276+0000] {processor.py:157} INFO - Started process (PID=6083) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:22:45.304+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:22:45.310+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:22:45.310+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:22:48.540+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:22:48.623+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:22:48.622+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:22:48.694+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:22:48.694+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:22:48.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 3.502 seconds
+[2024-01-30T16:23:19.176+0000] {processor.py:157} INFO - Started process (PID=6108) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:23:19.179+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:23:19.181+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:23:19.181+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:23:20.168+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:23:20.202+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:23:20.202+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:23:20.235+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:23:20.235+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:23:20.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.091 seconds
+[2024-01-30T16:23:50.678+0000] {processor.py:157} INFO - Started process (PID=6126) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:23:50.681+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:23:50.685+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:23:50.685+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:23:51.748+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:23:51.783+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:23:51.782+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:23:51.819+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:23:51.819+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:23:51.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.176 seconds
+[2024-01-30T16:24:23.088+0000] {processor.py:157} INFO - Started process (PID=6144) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:24:23.130+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:24:23.149+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:24:23.149+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:24:25.101+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:24:25.138+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:24:25.135+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:24:25.181+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:24:25.180+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:24:25.215+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 2.173 seconds
+[2024-01-30T16:24:55.930+0000] {processor.py:157} INFO - Started process (PID=6162) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:24:55.949+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:24:55.956+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:24:55.956+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:24:56.992+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:24:57.039+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:24:57.038+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:24:57.086+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:24:57.086+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:24:57.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.213 seconds
+[2024-01-30T16:25:27.411+0000] {processor.py:157} INFO - Started process (PID=6180) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:25:27.414+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:25:27.419+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:25:27.419+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:25:28.583+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:25:28.622+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:25:28.621+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:25:28.658+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:25:28.657+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:25:28.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.284 seconds
+[2024-01-30T16:25:58.815+0000] {processor.py:157} INFO - Started process (PID=6199) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:25:58.826+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:25:58.829+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:25:58.829+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:25:59.697+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:25:59.728+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:25:59.727+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:25:59.763+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:25:59.763+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:25:59.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.985 seconds
+[2024-01-30T16:26:30.162+0000] {processor.py:157} INFO - Started process (PID=6217) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:26:30.166+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:26:30.169+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:26:30.169+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:26:31.088+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:26:31.122+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:26:31.121+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:26:31.197+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:26:31.197+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:26:31.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.115 seconds
+[2024-01-30T16:27:01.465+0000] {processor.py:157} INFO - Started process (PID=6235) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:27:01.469+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:27:01.472+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:27:01.472+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:27:02.228+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:27:02.269+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:27:02.266+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:27:02.303+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:27:02.302+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:27:02.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.872 seconds
+[2024-01-30T16:27:32.652+0000] {processor.py:157} INFO - Started process (PID=6255) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:27:32.657+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:27:32.660+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:27:32.660+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:27:33.816+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:27:33.853+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:27:33.852+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:27:33.891+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:27:33.891+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:27:33.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.278 seconds
+[2024-01-30T16:28:04.206+0000] {processor.py:157} INFO - Started process (PID=6273) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:28:04.209+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:28:04.212+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:28:04.211+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:28:04.953+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:28:04.983+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:28:04.983+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:28:05.020+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:28:05.020+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:28:05.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.850 seconds
+[2024-01-30T16:28:35.321+0000] {processor.py:157} INFO - Started process (PID=6291) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:28:35.324+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:28:35.326+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:28:35.326+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:28:36.067+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:28:36.095+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:28:36.094+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:28:36.126+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:28:36.126+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:28:36.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.839 seconds
+[2024-01-30T16:29:06.777+0000] {processor.py:157} INFO - Started process (PID=6309) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:29:06.782+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:29:06.810+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:29:06.809+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:29:07.670+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:29:07.701+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:29:07.700+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:29:07.734+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:29:07.734+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:29:07.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.990 seconds
+[2024-01-30T16:29:37.951+0000] {processor.py:157} INFO - Started process (PID=6327) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:29:37.954+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:29:37.957+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:29:37.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:29:38.700+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:29:38.729+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:29:38.728+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:29:38.760+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:29:38.760+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:29:38.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.843 seconds
+[2024-01-30T16:30:09.288+0000] {processor.py:157} INFO - Started process (PID=6345) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:30:09.292+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:30:09.295+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:30:09.295+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:30:10.077+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:30:10.109+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:30:10.108+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:30:10.146+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:30:10.146+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:30:10.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.892 seconds
+[2024-01-30T16:30:40.411+0000] {processor.py:157} INFO - Started process (PID=6363) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:30:40.414+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:30:40.417+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:30:40.417+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:30:41.190+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:30:41.222+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:30:41.221+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:30:41.256+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:30:41.256+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:30:41.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.882 seconds
+[2024-01-30T16:31:11.780+0000] {processor.py:157} INFO - Started process (PID=6381) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:31:11.784+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:31:11.786+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:31:11.786+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:31:12.520+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:31:12.578+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:31:12.578+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:31:12.679+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:31:12.679+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:31:12.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.996 seconds
+[2024-01-30T16:31:42.991+0000] {processor.py:157} INFO - Started process (PID=6399) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:31:42.993+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:31:42.995+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:31:42.995+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:31:43.706+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:31:43.734+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:31:43.733+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:31:43.766+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:31:43.766+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:31:43.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.807 seconds
+[2024-01-30T16:32:14.280+0000] {processor.py:157} INFO - Started process (PID=6417) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:32:14.282+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:32:14.287+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:32:14.287+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:32:14.999+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:32:15.205+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:32:15.204+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:32:15.343+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:32:15.342+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:32:15.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.130 seconds
+[2024-01-30T16:32:45.603+0000] {processor.py:157} INFO - Started process (PID=6435) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:32:45.606+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:32:45.608+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:32:45.608+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:32:46.338+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:32:46.371+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:32:46.368+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:32:46.404+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:32:46.404+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:32:46.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.832 seconds
+[2024-01-30T16:33:16.730+0000] {processor.py:157} INFO - Started process (PID=6454) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:33:16.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:33:16.737+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:33:16.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:33:17.494+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:33:17.551+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:33:17.550+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:33:17.592+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:33:17.592+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:33:17.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.894 seconds
+[2024-01-30T16:33:47.907+0000] {processor.py:157} INFO - Started process (PID=6472) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:33:47.911+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:33:47.914+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:33:47.914+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:33:48.594+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:33:48.622+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:33:48.621+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:33:48.653+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:33:48.653+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:33:48.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.778 seconds
+[2024-01-30T16:34:19.224+0000] {processor.py:157} INFO - Started process (PID=6489) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:34:19.227+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:34:19.229+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:34:19.229+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:34:19.928+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:34:19.955+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:34:19.955+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:34:19.985+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:34:19.985+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:34:20.012+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.793 seconds
+[2024-01-30T16:34:50.532+0000] {processor.py:157} INFO - Started process (PID=6507) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:34:50.535+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:34:50.538+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:34:50.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:34:51.212+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:34:51.241+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:34:51.240+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:34:51.279+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:34:51.278+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:34:51.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.778 seconds
+[2024-01-30T16:35:21.768+0000] {processor.py:157} INFO - Started process (PID=6525) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:35:21.770+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:35:21.772+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:35:21.772+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:35:22.465+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:35:22.593+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:35:22.581+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:35:22.736+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:35:22.736+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:35:22.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 1.018 seconds
+[2024-01-30T16:35:52.942+0000] {processor.py:157} INFO - Started process (PID=6551) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:35:52.945+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:35:52.947+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:35:52.947+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:35:53.612+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:35:53.645+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:35:53.644+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:35:53.676+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:35:53.676+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:35:53.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.768 seconds
+[2024-01-30T16:36:24.251+0000] {processor.py:157} INFO - Started process (PID=6570) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:36:24.254+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:36:24.257+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:36:24.257+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:36:24.948+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:36:24.978+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:36:24.977+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:36:25.008+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:36:25.007+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:36:25.033+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.789 seconds
+[2024-01-30T16:36:55.535+0000] {processor.py:157} INFO - Started process (PID=6588) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:36:55.538+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:36:55.541+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:36:55.540+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:36:56.233+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:36:56.261+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:36:56.260+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:36:56.294+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:36:56.294+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:36:56.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.792 seconds
+[2024-01-30T16:37:26.575+0000] {processor.py:157} INFO - Started process (PID=6606) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:37:26.578+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:37:26.580+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:37:26.580+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:37:27.246+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:37:27.273+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:37:27.272+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:37:27.305+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:37:27.305+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:37:27.332+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.762 seconds
+[2024-01-30T16:37:57.899+0000] {processor.py:157} INFO - Started process (PID=6624) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:37:57.902+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:37:57.905+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:37:57.905+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:37:58.607+0000] {processor.py:836} INFO - DAG(s) dict_keys(['test_fetch_s3_csv_files']) retrieved from /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:37:58.636+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:37:58.635+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-01-30T16:37:58.668+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:37:58.668+0000] {dag.py:3490} INFO - Setting next_dagrun for test_fetch_s3_csv_files to None, run_after=None
+[2024-01-30T16:37:58.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/energy-prod-cons-dag/test.py took 0.801 seconds
+[2024-01-30T16:42:52.013+0000] {processor.py:157} INFO - Started process (PID=6643) to work on /opt/airflow/dags/energy-prod-cons-dag/test.py
+[2024-01-30T16:42:54.094+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/energy-prod-cons-dag/test.py for tasks to queue
+[2024-01-30T16:42:54.197+0000] {logging_mixin.py:149} INFO - [2024-01-30T16:42:54.196+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/energy-prod-cons-dag/test.py

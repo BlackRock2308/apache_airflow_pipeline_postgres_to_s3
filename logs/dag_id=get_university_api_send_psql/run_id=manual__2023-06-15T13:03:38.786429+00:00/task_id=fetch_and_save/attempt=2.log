@@ -1,2 +1,0 @@
-[2023-06-15T19:04:00.014+0000] {taskinstance.py:1097} INFO - Dependencies not met for <TaskInstance: get_university_api_send_psql.fetch_and_save manual__2023-06-15T13:03:38.786429+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
-[2023-06-15T19:04:00.062+0000] {local_task_job_runner.py:154} INFO - Task is not able to be run

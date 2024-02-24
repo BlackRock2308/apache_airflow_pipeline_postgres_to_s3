@@ -1,0 +1,14 @@
+[2024-02-13T13:14:49.215+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_energy_data_and_transform.wait_for_prod_elect_dept_csv manual__2024-02-13T13:14:30.267283+00:00 [queued]>
+[2024-02-13T13:14:49.387+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_energy_data_and_transform.wait_for_prod_elect_dept_csv manual__2024-02-13T13:14:30.267283+00:00 [queued]>
+[2024-02-13T13:14:49.407+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-13T13:14:49.527+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_prod_elect_dept_csv> on 2024-02-13 13:14:30.267283+00:00
+[2024-02-13T13:14:49.591+0000] {standard_task_runner.py:57} INFO - Started process 3160 to run task
+[2024-02-13T13:14:49.609+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_energy_data_and_transform', 'wait_for_prod_elect_dept_csv', 'manual__2024-02-13T13:14:30.267283+00:00', '--job-id', '171', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp2r55ogl7']
+[2024-02-13T13:14:49.638+0000] {standard_task_runner.py:85} INFO - Job 171: Subtask wait_for_prod_elect_dept_csv
+[2024-02-13T13:14:49.855+0000] {task_command.py:410} INFO - Running <TaskInstance: get_energy_data_and_transform.wait_for_prod_elect_dept_csv manual__2024-02-13T13:14:30.267283+00:00 [running]> on host 952b3f8a1a94
+[2024-02-13T13:14:50.188+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_prod_elect_dept_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-02-13T13:14:30.267283+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-13T13:14:30.267283+00:00'
+[2024-02-13T13:14:50.231+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f5bd3259170>
+[2024-02-13T13:14:50.243+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-02-13T13:14:50.270+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=get_energy_data_and_transform, task_id=wait_for_prod_elect_dept_csv, execution_date=20240213T131430, start_date=20240213T131449, end_date=20240213T131450
+[2024-02-13T13:14:50.384+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-13T13:14:50.460+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

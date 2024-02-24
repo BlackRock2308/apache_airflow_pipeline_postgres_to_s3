@@ -1,0 +1,28 @@
+[2024-01-30T12:08:13.052+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_university_api_send_psql.send_to_postgresql manual__2024-01-30T12:07:05.069528+00:00 [queued]>
+[2024-01-30T12:08:13.101+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_university_api_send_psql.send_to_postgresql manual__2024-01-30T12:07:05.069528+00:00 [queued]>
+[2024-01-30T12:08:13.119+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-01-30T12:08:13.177+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): send_to_postgresql> on 2024-01-30 12:07:05.069528+00:00
+[2024-01-30T12:08:13.221+0000] {standard_task_runner.py:57} INFO - Started process 643 to run task
+[2024-01-30T12:08:13.248+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'get_university_api_send_psql', 'send_to_postgresql', 'manual__2024-01-30T12:07:05.069528+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp7w9uzi1c']
+[2024-01-30T12:08:13.266+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask send_to_postgresql
+[2024-01-30T12:08:13.821+0000] {task_command.py:410} INFO - Running <TaskInstance: get_university_api_send_psql.send_to_postgresql manual__2024-01-30T12:07:05.069528+00:00 [running]> on host da23bfa12ada
+[2024-01-30T12:08:14.062+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_university_api_send_psql' AIRFLOW_CTX_TASK_ID='send_to_postgresql' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T12:07:05.069528+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-30T12:07:05.069528+00:00'
+[2024-01-30T12:08:14.133+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/energy-prod-cons-dag/data_energy_dag.py", line 107, in _send_to_postgresql
+    port="5433"
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "host.docker.internal" (192.168.65.2), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2024-01-30T12:08:14.167+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=get_university_api_send_psql, task_id=send_to_postgresql, execution_date=20240130T120705, start_date=20240130T120813, end_date=20240130T120814
+[2024-01-30T12:08:14.212+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 6 for task send_to_postgresql (connection to server at "host.docker.internal" (192.168.65.2), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+; 643)
+[2024-01-30T12:08:14.252+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-01-30T12:08:14.312+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
