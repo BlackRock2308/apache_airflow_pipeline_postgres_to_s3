@@ -1,0 +1,14 @@
+[2024-02-26T22:07:13.516+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.operateur_dim manual__2024-02-26T21:57:07.846005+00:00 [queued]>
+[2024-02-26T22:07:13.590+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.operateur_dim manual__2024-02-26T21:57:07.846005+00:00 [queued]>
+[2024-02-26T22:07:13.594+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-02-26T22:07:13.670+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): operateur_dim> on 2024-02-26 21:57:07.846005+00:00
+[2024-02-26T22:07:13.946+0000] {standard_task_runner.py:57} INFO - Started process 4050 to run task
+[2024-02-26T22:07:14.049+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'operateur_dim', 'manual__2024-02-26T21:57:07.846005+00:00', '--job-id', '440', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpi5nhid98']
+[2024-02-26T22:07:14.156+0000] {standard_task_runner.py:85} INFO - Job 440: Subtask operateur_dim
+[2024-02-26T22:07:15.684+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.operateur_dim manual__2024-02-26T21:57:07.846005+00:00 [running]> on host 952b3f8a1a94
+[2024-02-26T22:07:17.070+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='operateur_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-02-26T21:57:07.846005+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-26T21:57:07.846005+00:00'
+[2024-02-26T22:07:17.399+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f471b2cc290>
+[2024-02-26T22:07:17.406+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-02-26T22:07:17.712+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=operateur_dim, execution_date=20240226T215707, start_date=20240226T220713, end_date=20240226T220717
+[2024-02-26T22:07:17.899+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-26T22:07:18.180+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

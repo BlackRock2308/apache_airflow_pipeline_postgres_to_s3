@@ -1,0 +1,14 @@
+[2024-03-16T11:58:31.414+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_df_prod_elect_dept manual__2024-03-16T11:49:12.079063+00:00 [queued]>
+[2024-03-16T11:58:31.507+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_df_prod_elect_dept manual__2024-03-16T11:49:12.079063+00:00 [queued]>
+[2024-03-16T11:58:31.526+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-16T11:58:31.770+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_df_prod_elect_dept> on 2024-03-16 11:49:12.079063+00:00
+[2024-03-16T11:58:31.872+0000] {standard_task_runner.py:57} INFO - Started process 826 to run task
+[2024-03-16T11:58:31.912+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_df_prod_elect_dept', 'manual__2024-03-16T11:49:12.079063+00:00', '--job-id', '1709', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpaogmxmeg']
+[2024-03-16T11:58:31.928+0000] {standard_task_runner.py:85} INFO - Job 1709: Subtask check_df_prod_elect_dept
+[2024-03-16T11:58:32.502+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_df_prod_elect_dept manual__2024-03-16T11:49:12.079063+00:00 [running]> on host 952b3f8a1a94
+[2024-03-16T11:58:34.115+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_df_prod_elect_dept' AIRFLOW_CTX_EXECUTION_DATE='2024-03-16T11:49:12.079063+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-16T11:49:12.079063+00:00'
+[2024-03-16T11:58:34.200+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f2bb70d3710>
+[2024-03-16T11:58:34.214+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-03-16T11:58:34.254+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=check_df_prod_elect_dept, execution_date=20240316T114912, start_date=20240316T115831, end_date=20240316T115834
+[2024-03-16T11:58:34.440+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-16T11:58:34.867+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,13 @@
+[2024-03-10T21:34:30.595+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_filiere manual__2024-03-10T21:32:57.268088+00:00 [queued]>
+[2024-03-10T21:34:30.692+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_filiere manual__2024-03-10T21:32:57.268088+00:00 [queued]>
+[2024-03-10T21:34:30.696+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-10T21:34:30.855+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_dim_filiere> on 2024-03-10 21:32:57.268088+00:00
+[2024-03-10T21:34:30.914+0000] {standard_task_runner.py:57} INFO - Started process 3752 to run task
+[2024-03-10T21:34:30.936+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'create_dim_filiere', 'manual__2024-03-10T21:32:57.268088+00:00', '--job-id', '1061', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp2rskvcrg']
+[2024-03-10T21:34:30.975+0000] {standard_task_runner.py:85} INFO - Job 1061: Subtask create_dim_filiere
+[2024-03-10T21:34:31.278+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.create_dim_filiere manual__2024-03-10T21:32:57.268088+00:00 [running]> on host 952b3f8a1a94
+[2024-03-10T21:34:32.402+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='create_dim_filiere' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T21:32:57.268088+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T21:32:57.268088+00:00'
+[2024-03-10T21:34:33.707+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-03-10T21:34:33.786+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=create_dim_filiere, execution_date=20240310T213257, start_date=20240310T213430, end_date=20240310T213433
+[2024-03-10T21:34:34.057+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-10T21:34:35.310+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

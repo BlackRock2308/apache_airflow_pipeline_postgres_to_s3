@@ -1,13 +1,14 @@
-import os, json, boto3, pathlib, psycopg2, requests
+import os, csv, boto3, pathlib, psycopg2, requests
 import pandas as pd
 from airflow import DAG
 from pathlib import Path
 import airflow.utils.dates
+from airflow.operators.dummy_operator import DummyOperator
 from airflow.sensors.python import PythonSensor
 from airflow.operators.python import PythonOperator
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
+import json
 
-import csv , json
 
 CUR_DIR = os.path.abspath(os.path.dirname(__file__))
 
@@ -24,6 +25,15 @@ dag2 = DAG(
     schedule_interval=None
 )
 
+start_pipeline = DummyOperator(
+        task_id = 'start_pipeline',
+        dag = dag1
+        )
+
+start_second_dag = DummyOperator(
+        task_id = 'start_second_dag',
+        dag = dag2
+        )
 
 
 def _fetch_and_transform():
@@ -99,9 +109,6 @@ def _fetch_and_transform():
         # Rename libelle_secteur_naf2 where value = 0 by UNKNOW_SECTOR
         df_conso_energy_region['libelle_secteur_naf2'] = df_conso_energy_region['libelle_secteur_naf2'].replace({'0': 'UNKNOWN_SECTOR'})
 
-        # df_conso_energy_region = df_conso_energy_region.drop(['libelle_region', 'conso', 'pdl', 'indqual'], axis=1)
-        # df_conso_energy_region = df_conso_energy_region.dropna(subset=['code_region'])
-
         annee_conso_region = df_conso_energy_region[['annee']].drop_duplicates().reset_index(drop=True)
         annee_prod_dept = df_prod_elect_dept[['annee']].drop_duplicates().reset_index(drop=True)
         annee_conso_dept = df_conso_energy_dept[['annee']].drop_duplicates().reset_index(drop=True)
@@ -109,41 +116,40 @@ def _fetch_and_transform():
         annee_dim = annee_dim.merge(annee_prod_dept, 'outer')
        
         # Operator Dimension Table
-        operateur_dim = df_conso_energy_region[['operateur']].drop_duplicates().reset_index(drop=True)
+        operateur_region = df_conso_energy_region[['operateur']].drop_duplicates().reset_index(drop=True)
+        operateur_dept = df_conso_energy_dept[['operateur']].drop_duplicates().reset_index(drop=True)
+        operateur_dim = operateur_region.merge(operateur_dept, 'outer')
         operateur_dim['operateur_id'] = operateur_dim.index
 
         # Sector NAF Dimension Table
         secteur_naf_dim = df_conso_energy_region[['code_naf','libelle_secteur_naf2']].drop_duplicates().reset_index(drop=True)
-        secteur_naf_dim['code_naf_id'] = secteur_naf_dim.index
 
         # Grand Sector Dimension Table
         grand_secteur_dim = df_conso_energy_region[['code_grand_secteur', 'libelle_grand_secteur']].drop_duplicates().reset_index(drop=True)
-        grand_secteur_dim['grand_secteur_id'] = grand_secteur_dim.index
 
         # Filiere Dimension Table
         filiere_dim = df_conso_energy_dept[['id_filiere','filiere']].drop_duplicates().reset_index(drop=True)
 
         # Category Consommation Dimension Table
         category_consommation_dim = df_conso_energy_region[['code_categorie_consommation',  'libelle_categorie_consommation']].drop_duplicates().reset_index(drop=True)
-        category_consommation_dim['category_consommation_id'] = category_consommation_dim.index
 
         # Departement Dimension Table
         departement_dim = df_conso_energy_dept[['code_departement' , 'libelle_departement' , 'code_region']].drop_duplicates().reset_index(drop=True)
-        departement_dim['departement_id'] = departement_dim.index
 
         # Region Dimension Table
         region_dim = df_conso_energy_dept[['code_region' , 'libelle_region']].drop_duplicates().reset_index(drop=True)
-        region_dim['region_id'] = region_dim.index
 
         # Domaine Tension Dimension Table
         domaine_tension_dim = df_prod_elec_region[['domaine_de_tension']].drop_duplicates().reset_index(drop=True)
         domaine_tension_dim['domaine_tension_id'] = domaine_tension_dim.index
 
-        fact_table_conso_energy_dept = df_conso_energy_dept.merge(operateur_dim, on = 'operateur')\
-                            .merge(departement_dim, on = 'code_departement')\
-                            .merge(filiere_dim, on='id_filiere')\
-                            .merge(annee_dim, on='annee')\
-                            [[ 'annee','operateur','id_filiere',
+
+
+        fact_table_conso_energy_dept = df_conso_energy_dept.merge(operateur_dim, on = 'operateur', how='left')\
+                            .merge(departement_dim, on = 'code_departement', how='left')\
+                            .merge(filiere_dim, on='id_filiere', how='left')\
+                            .merge(annee_dim, on='annee', how='left')\
+                            [[ 'annee','operateur_id','id_filiere',
                                 'consoa','pdla','indquala',
                                 'code_departement',
                                 'consona','pdlna','indqualna',
@@ -163,22 +169,23 @@ def _fetch_and_transform():
         df_conso_energy_region['code_naf'].fillna(-1, inplace=True)  # Fill NaN values with -1
 
 
-        fact_table_conso_energy_region = df_conso_energy_region.merge(operateur_dim, on = 'operateur')\
-                                    .merge(grand_secteur_dim, on = 'code_grand_secteur')\
-                                    .merge(filiere_dim, on='id_filiere')\
-                                    .merge(region_dim, on='code_region')\
-                                    .merge(category_consommation_dim, on ='code_categorie_consommation')\
-                                    .merge(secteur_naf_dim, on = 'code_naf')\
-                                    .merge(annee_dim, on='annee')\
-                                    [[ 'annee','operateur','id_filiere','code_region',
+        fact_table_conso_energy_region = df_conso_energy_region.merge(operateur_dim, on = 'operateur', how='left')\
+                                    .merge(grand_secteur_dim, on = 'code_grand_secteur', how='left')\
+                                    .merge(filiere_dim, on='id_filiere', how='left')\
+                                    .merge(region_dim, on='code_region', how='left')\
+                                    .merge(category_consommation_dim, on ='code_categorie_consommation', how='left')\
+                                    .merge(secteur_naf_dim, on = 'code_naf', how='left')\
+                                    .merge(annee_dim, on='annee', how='left')\
+                                    [[ 'annee','operateur_id','id_filiere','code_region',
                                     'code_grand_secteur',
                                     'code_categorie_consommation','code_naf'
             ]]
 
         # Assuming 'date_column' is the name of your column containing dates and 'df' is your dataframe
-        df_prod_gaz_dept['date'] = pd.to_datetime(df_prod_gaz_dept['date'])
-        df_prod_gaz_dept['date_annee'] = df_prod_gaz_dept['date'].dt.year
-        df_prod_gaz_dept = df_prod_gaz_dept.drop(['date'], axis=1)
+        if 'date' in df_prod_gaz_dept.columns:
+            df_prod_gaz_dept['date'] = pd.to_datetime(df_prod_gaz_dept['date'])
+            df_prod_gaz_dept['date_annee'] = df_prod_gaz_dept['date'].dt.year
+            df_prod_gaz_dept = df_prod_gaz_dept.drop(['date'], axis=1)
 
 
         df_prod_gaz_deptartment = df_prod_gaz_dept.groupby(['code_officiel_departement', 'date_annee']).agg(
@@ -189,11 +196,12 @@ def _fetch_and_transform():
 
         df_prod_gaz_deptartment = df_prod_gaz_deptartment.rename(columns={'code_officiel_departement': 'code_departement', 'date_annee': 'annee'})
 
-        fact_table_prod_energy = df_prod_elect_dept.merge(df_prod_gaz_deptartment, on = ['annee', 'code_departement'])\
-                            .merge(domaine_tension_dim, on = 'domaine_de_tension')\
-                            .merge(annee_dim, on='annee')\
-                            [[ 'annee', 'code_departement','domaine_de_tension', 'nb_sites_photovoltaique_enedis',
-                            'energie_produite_annuelle_photovoltaique_enedis_mwh', 'nb_sites_eolien_enedis', 'energie_produite_annuelle_eolien_enedis_mwh',
+        fact_table_prod_energy = df_prod_elect_dept.merge(df_prod_gaz_deptartment, on = ['annee', 'code_departement'], how='left')\
+                            .merge(domaine_tension_dim, on = 'domaine_de_tension', how='left')\
+                            .merge(annee_dim, on='annee', how='left')\
+                            [[ 'annee', 'code_departement','domaine_tension_id', 'nb_sites_photovoltaique_enedis',
+                            'energie_produite_annuelle_photovoltaique_enedis_mwh', 'nb_sites_eolien_enedis',
+                            'energie_produite_annuelle_eolien_enedis_mwh',
                             'nb_sites_hydraulique_enedis','energie_produite_annuelle_hydraulique_enedis_mwh',
                             'nb_sites_bio_energie_enedis', 'energie_produite_annuelle_bio_energie_enedis_mwh',
                             'nb_sites_cogeneration_enedis','energie_produite_annuelle_cogeneration_enedis_mwh',
@@ -207,23 +215,22 @@ def _fetch_and_transform():
     fact_table_conso_energy_dept_ = main_path + "/fact_table_conso_energy_dept.csv"
     fact_table_conso_energy_region_ = main_path + "/fact_table_conso_energy_region.csv"
     fact_table_prod_energy_ = main_path + "/fact_table_prod_energy.csv"
-    df_prod_gaz_deptartment_ = main_path + "/df_prod_gaz_deptartment.csv"
 
-    departement_dim_ = main_path + "/departement_dim.csv"
-    domaine_tension_dim_ = main_path + "/domaine_tension_dim.csv"
-    operateur_dim_ = main_path + "/operateur_dim.csv"
-    grand_secteur_dim_ = main_path + "/grand_secteur_dim.csv"
-    filiere_dim_ = main_path + "/filiere_dim.csv"
-    region_dim_ = main_path + "/region_dim.csv"
-    category_consommation_dim_ = main_path + "/category_consommation_dim.csv"
-    secteur_naf_dim_ = main_path + "/secteur_naf_dim.csv"
+    departement_dim_ = main_path + "/dim_departement.csv"
+    domaine_tension_dim_ = main_path + "/dim_domaine_tension.csv"
+    operateur_dim_ = main_path + "/dim_operateur.csv"
+    grand_secteur_dim_ = main_path + "/dim_grand_secteur.csv"
+    filiere_dim_ = main_path + "/dim_filiere.csv"
+    region_dim_ = main_path + "/dim_region.csv"
+    category_consommation_dim_ = main_path + "/dim_category_consommation.csv"
+    secteur_naf_dim_ = main_path + "/dim_secteur_naf.csv"
+    annee_dim_ = main_path + "/dim_annee.csv"
 
 
     # Write remote data energy to the local destination CSV file
     fact_table_conso_energy_dept.to_csv(fact_table_conso_energy_dept_, index=False)
     fact_table_conso_energy_region.to_csv(fact_table_conso_energy_region_, index=False)
     fact_table_prod_energy.to_csv(fact_table_prod_energy_, index=False)
-    df_prod_gaz_deptartment.to_csv(df_prod_gaz_deptartment_, index=False)
 
     departement_dim.to_csv(departement_dim_, index=False)
     domaine_tension_dim.to_csv(domaine_tension_dim_, index=False)
@@ -233,7 +240,7 @@ def _fetch_and_transform():
     region_dim.to_csv(region_dim_, index=False)
     category_consommation_dim.to_csv(category_consommation_dim_, index=False)
     secteur_naf_dim.to_csv(secteur_naf_dim_, index=False)
-
+    annee_dim.to_csv(annee_dim_, index=False)
 
 
 def _reading_transform_csv():
@@ -347,19 +354,19 @@ clean_csv_file_paths = [
     "/tmp/csv_file/fact_table_conso_energy_dept.csv",
     "/tmp/csv_file/fact_table_conso_energy_region.csv",
     "/tmp/csv_file/fact_table_prod_energy.csv",
-    "/tmp/csv_file/df_prod_gaz_deptartment.csv",
 
-    "/tmp/csv_file/departement_dim.csv",
-    "/tmp/csv_file/domaine_tension_dim.csv",
+    "/tmp/csv_file/dim_departement.csv",
+    "/tmp/csv_file/dim_domaine_tension.csv",
 
-    "/tmp/csv_file/operateur_dim.csv",
-    "/tmp/csv_file/grand_secteur_dim.csv",
+    "/tmp/csv_file/dim_operateur.csv",
+    "/tmp/csv_file/dim_grand_secteur.csv",
 
-    "/tmp/csv_file/filiere_dim.csv",
-    "/tmp/csv_file/region_dim.csv",
+    "/tmp/csv_file/dim_filiere.csv",
+    "/tmp/csv_file/dim_region.csv",
 
-     "/tmp/csv_file/category_consommation_dim.csv",
-    "/tmp/csv_file/secteur_naf_dim.csv"
+    "/tmp/csv_file/dim_category_consommation.csv",
+    "/tmp/csv_file/dim_secteur_naf.csv",
+     "/tmp/csv_file/dim_annee.csv"
 ]
 
 
@@ -385,10 +392,8 @@ send_csv_s3 = PythonOperator(
 
 
 
-fetch_and_transform  >> wait_for_clean_csv_sensor >> trigger_dag2
-
-
-reading_transform_csv >> send_csv_s3
+start_pipeline >> fetch_and_transform  >> wait_for_clean_csv_sensor >> trigger_dag2
+start_second_dag >> reading_transform_csv >> send_csv_s3
 
 
 

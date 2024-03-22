@@ -1,0 +1,29 @@
+[2024-02-26T22:05:34.466+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.load_conso_energy_dept manual__2024-02-26T21:57:07.846005+00:00 [queued]>
+[2024-02-26T22:05:34.484+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.load_conso_energy_dept manual__2024-02-26T21:57:07.846005+00:00 [queued]>
+[2024-02-26T22:05:34.486+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-02-26T22:05:34.505+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_conso_energy_dept> on 2024-02-26 21:57:07.846005+00:00
+[2024-02-26T22:05:34.514+0000] {standard_task_runner.py:57} INFO - Started process 3983 to run task
+[2024-02-26T22:05:34.520+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'load_conso_energy_dept', 'manual__2024-02-26T21:57:07.846005+00:00', '--job-id', '430', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp4hqab173']
+[2024-02-26T22:05:34.525+0000] {standard_task_runner.py:85} INFO - Job 430: Subtask load_conso_energy_dept
+[2024-02-26T22:05:34.598+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.load_conso_energy_dept manual__2024-02-26T21:57:07.846005+00:00 [running]> on host 952b3f8a1a94
+[2024-02-26T22:05:34.703+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='load_conso_energy_dept' AIRFLOW_CTX_EXECUTION_DATE='2024-02-26T21:57:07.846005+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-26T21:57:07.846005+00:00'
+[2024-02-26T22:05:34.707+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 67, in load_conso_energy_dept
+    df_conso_energy_dept = pd.read_csv(source_conso_dept, sep=';', error_bad_lines=False)
+NameError: name 'pd' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 81, in load_conso_energy_dept
+    except pd.errors.ParserError as e:
+NameError: name 'pd' is not defined
+[2024-02-26T22:05:34.726+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=EnergyWarehouse, task_id=load_conso_energy_dept, execution_date=20240226T215707, start_date=20240226T220534, end_date=20240226T220534
+[2024-02-26T22:05:34.747+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 430 for task load_conso_energy_dept (name 'pd' is not defined; 3983)
+[2024-02-26T22:05:34.776+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-02-26T22:05:34.827+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

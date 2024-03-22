@@ -1,0 +1,14 @@
+[2024-02-26T22:41:12.029+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.df_conso_energy_region manual__2024-02-26T22:40:54.801491+00:00 [queued]>
+[2024-02-26T22:41:12.050+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.df_conso_energy_region manual__2024-02-26T22:40:54.801491+00:00 [queued]>
+[2024-02-26T22:41:12.052+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-02-26T22:41:12.082+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): df_conso_energy_region> on 2024-02-26 22:40:54.801491+00:00
+[2024-02-26T22:41:12.094+0000] {standard_task_runner.py:57} INFO - Started process 4863 to run task
+[2024-02-26T22:41:12.102+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'df_conso_energy_region', 'manual__2024-02-26T22:40:54.801491+00:00', '--job-id', '530', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp35z4qpoz']
+[2024-02-26T22:41:12.110+0000] {standard_task_runner.py:85} INFO - Job 530: Subtask df_conso_energy_region
+[2024-02-26T22:41:12.209+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.df_conso_energy_region manual__2024-02-26T22:40:54.801491+00:00 [running]> on host 952b3f8a1a94
+[2024-02-26T22:41:12.335+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='df_conso_energy_region' AIRFLOW_CTX_EXECUTION_DATE='2024-02-26T22:40:54.801491+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-26T22:40:54.801491+00:00'
+[2024-02-26T22:41:12.352+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f471b3c6200>
+[2024-02-26T22:41:12.355+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-02-26T22:41:12.374+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=df_conso_energy_region, execution_date=20240226T224054, start_date=20240226T224112, end_date=20240226T224112
+[2024-02-26T22:41:12.436+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-26T22:41:12.520+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

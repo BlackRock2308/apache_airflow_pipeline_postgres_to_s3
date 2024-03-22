@@ -1,0 +1,66 @@
+[2024-03-13T13:15:13.784+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:15:13.894+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:15:13.902+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:15:13.972+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_secteur_naf_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:15:14.057+0000] {standard_task_runner.py:57} INFO - Started process 355 to run task
+[2024-03-13T13:15:14.208+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_secteur_naf_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1555', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpy2x2gg34']
+[2024-03-13T13:15:14.233+0000] {standard_task_runner.py:85} INFO - Job 1555: Subtask check_secteur_naf_dim
+[2024-03-13T13:15:14.653+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:15:17.457+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_secteur_naf_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:15:17.662+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531a83e60>
+[2024-03-13T13:15:18.133+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:15:18.333+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:15:18.920+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:16:02.655+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:16:02.820+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:16:02.824+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:16:02.939+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_secteur_naf_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:16:02.981+0000] {standard_task_runner.py:57} INFO - Started process 387 to run task
+[2024-03-13T13:16:03.033+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_secteur_naf_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1562', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpf01v557h']
+[2024-03-13T13:16:03.060+0000] {standard_task_runner.py:85} INFO - Job 1562: Subtask check_secteur_naf_dim
+[2024-03-13T13:16:03.489+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:16:03.973+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_secteur_naf_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:16:04.064+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b36050>
+[2024-03-13T13:16:04.194+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:16:04.251+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:16:04.457+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:16:40.084+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:16:40.115+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:16:40.117+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:16:40.179+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_secteur_naf_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:16:40.199+0000] {standard_task_runner.py:57} INFO - Started process 419 to run task
+[2024-03-13T13:16:40.225+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_secteur_naf_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1570', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmphuyf7twn']
+[2024-03-13T13:16:40.240+0000] {standard_task_runner.py:85} INFO - Job 1570: Subtask check_secteur_naf_dim
+[2024-03-13T13:16:40.426+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:16:41.156+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_secteur_naf_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:16:41.221+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9d440>
+[2024-03-13T13:16:41.426+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:16:41.558+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:16:41.779+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:17:19.639+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:19.797+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:19.839+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:17:20.055+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_secteur_naf_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:17:20.189+0000] {standard_task_runner.py:57} INFO - Started process 450 to run task
+[2024-03-13T13:17:20.216+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_secteur_naf_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1577', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp8kw70lfj']
+[2024-03-13T13:17:20.307+0000] {standard_task_runner.py:85} INFO - Job 1577: Subtask check_secteur_naf_dim
+[2024-03-13T13:17:20.856+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:17:21.740+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_secteur_naf_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:17:21.806+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9d5f0>
+[2024-03-13T13:17:22.020+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:17:22.100+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:17:22.893+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:17:56.817+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:56.850+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:56.853+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:17:56.901+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_secteur_naf_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:17:56.922+0000] {standard_task_runner.py:57} INFO - Started process 476 to run task
+[2024-03-13T13:17:56.972+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_secteur_naf_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1583', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpbcq2_oct']
+[2024-03-13T13:17:57.003+0000] {standard_task_runner.py:85} INFO - Job 1583: Subtask check_secteur_naf_dim
+[2024-03-13T13:17:57.296+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_secteur_naf_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:17:57.823+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_secteur_naf_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:17:57.908+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9d440>
+[2024-03-13T13:17:57.916+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-03-13T13:17:57.972+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=check_secteur_naf_dim, execution_date=20240313T131047, start_date=20240313T131756, end_date=20240313T131757
+[2024-03-13T13:17:58.073+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:17:58.877+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

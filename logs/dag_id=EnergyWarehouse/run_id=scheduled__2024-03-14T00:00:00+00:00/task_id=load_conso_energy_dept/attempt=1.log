@@ -1,0 +1,83 @@
+[2024-03-16T11:06:00.947+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.load_conso_energy_dept scheduled__2024-03-14T00:00:00+00:00 [queued]>
+[2024-03-16T11:06:01.011+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.load_conso_energy_dept scheduled__2024-03-14T00:00:00+00:00 [queued]>
+[2024-03-16T11:06:01.015+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-16T11:06:01.092+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_conso_energy_dept> on 2024-03-14 00:00:00+00:00
+[2024-03-16T11:06:01.149+0000] {standard_task_runner.py:57} INFO - Started process 170 to run task
+[2024-03-16T11:06:01.171+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'load_conso_energy_dept', 'scheduled__2024-03-14T00:00:00+00:00', '--job-id', '1683', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp_qjxffiz']
+[2024-03-16T11:06:01.180+0000] {standard_task_runner.py:85} INFO - Job 1683: Subtask load_conso_energy_dept
+[2024-03-16T11:06:01.852+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.load_conso_energy_dept scheduled__2024-03-14T00:00:00+00:00 [running]> on host 952b3f8a1a94
+[2024-03-16T11:06:03.103+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='load_conso_energy_dept' AIRFLOW_CTX_EXECUTION_DATE='2024-03-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-14T00:00:00+00:00'
+[2024-03-16T11:06:03.233+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/operators/python.py:198: FutureWarning: The error_bad_lines argument has been deprecated and will be removed in a future version.
+
+
+  return self.python_callable(*self.op_args, **self.op_kwargs)
+
+[2024-03-16T11:06:06.538+0000] {logging_mixin.py:149} WARNING - Traceback (most recent call last):
+  File "pyarrow/pandas-shim.pxi", line 110, in pyarrow.lib._PandasAPIShim._check_import
+  File "pyarrow/pandas-shim.pxi", line 81, in pyarrow.lib._PandasAPIShim._import_pandas
+  File "/home/***/.local/lib/python3.7/site-packages/pandas/__init__.py", line 244, in __getattr__
+    raise AttributeError(f"module 'pandas' has no attribute '{name}'")
+AttributeError: module 'pandas' has no attribute 'api'
+[2024-03-16T11:06:06.545+0000] {logging_mixin.py:149} WARNING - Exception ignored in: 'pyarrow.lib._PandasAPIShim._have_pandas_internal'
+[2024-03-16T11:06:06.550+0000] {logging_mixin.py:149} WARNING - Traceback (most recent call last):
+[2024-03-16T11:06:06.566+0000] {logging_mixin.py:149} WARNING -   File "pyarrow/pandas-shim.pxi", line 110, in pyarrow.lib._PandasAPIShim._check_import
+[2024-03-16T11:06:06.582+0000] {logging_mixin.py:149} WARNING -   File "pyarrow/pandas-shim.pxi", line 81, in pyarrow.lib._PandasAPIShim._import_pandas
+[2024-03-16T11:06:06.596+0000] {logging_mixin.py:149} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/pandas/__init__.py", line 244, in __getattr__
+[2024-03-16T11:06:06.616+0000] {logging_mixin.py:149} WARNING -     raise AttributeError(f"module 'pandas' has no attribute '{name}'")
+[2024-03-16T11:06:06.628+0000] {logging_mixin.py:149} WARNING - AttributeError: module 'pandas' has no attribute 'api'
+[2024-03-16T11:06:06.641+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 90, in load_conso_energy_dept
+    kwargs['task_instance'].xcom_push(key='df_conso_energy_dept', value=df_conso_energy_dept)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2361, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 243, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 632, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/local/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 104, in encode
+    return super().encode(o)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 91, in default
+    return serialize(o)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/serialization/serde.py", line 142, in serialize
+    data, classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/serialization/serializers/pandas.py", line 49, in serialize
+    table = pa.Table.from_pandas(o)
+  File "pyarrow/table.pxi", line 3480, in pyarrow.lib.Table.from_pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/pandas_compat.py", line 569, in dataframe_to_arrays
+    columns)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/pandas_compat.py", line 385, in _get_columns_to_convert
+    if (isinstance(index_level, _pandas_api.pd.RangeIndex) and
+  File "pyarrow/pandas-shim.pxi", line 136, in pyarrow.lib._PandasAPIShim.pd.__get__
+  File "pyarrow/pandas-shim.pxi", line 106, in pyarrow.lib._PandasAPIShim._check_import
+  File "pyarrow/pandas-shim.pxi", line 81, in pyarrow.lib._PandasAPIShim._import_pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 244, in __getattr__
+    raise AttributeError(f"module 'pandas' has no attribute '{name}'")
+AttributeError: module 'pandas' has no attribute 'api'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 94, in load_conso_energy_dept
+    except pd.errors.ParserError as e:
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 244, in __getattr__
+    raise AttributeError(f"module 'pandas' has no attribute '{name}'")
+AttributeError: module 'pandas' has no attribute 'errors'
+[2024-03-16T11:06:06.975+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=EnergyWarehouse, task_id=load_conso_energy_dept, execution_date=20240314T000000, start_date=20240316T110600, end_date=20240316T110606
+[2024-03-16T11:06:07.100+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 1683 for task load_conso_energy_dept (module 'pandas' has no attribute 'errors'; 170)
+[2024-03-16T11:06:07.192+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-03-16T11:06:07.516+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

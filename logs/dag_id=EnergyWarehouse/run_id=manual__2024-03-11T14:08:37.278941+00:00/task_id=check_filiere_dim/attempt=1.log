@@ -1,0 +1,14 @@
+[2024-03-11T14:12:55.147+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_filiere_dim manual__2024-03-11T14:08:37.278941+00:00 [queued]>
+[2024-03-11T14:12:55.488+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_filiere_dim manual__2024-03-11T14:08:37.278941+00:00 [queued]>
+[2024-03-11T14:12:55.499+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-11T14:12:55.623+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_filiere_dim> on 2024-03-11 14:08:37.278941+00:00
+[2024-03-11T14:12:55.690+0000] {standard_task_runner.py:57} INFO - Started process 5111 to run task
+[2024-03-11T14:12:55.752+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_filiere_dim', 'manual__2024-03-11T14:08:37.278941+00:00', '--job-id', '1392', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmppri_45k7']
+[2024-03-11T14:12:55.827+0000] {standard_task_runner.py:85} INFO - Job 1392: Subtask check_filiere_dim
+[2024-03-11T14:12:56.563+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_filiere_dim manual__2024-03-11T14:08:37.278941+00:00 [running]> on host 952b3f8a1a94
+[2024-03-11T14:12:57.790+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_filiere_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T14:08:37.278941+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T14:08:37.278941+00:00'
+[2024-03-11T14:12:57.842+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f1b5c05b830>
+[2024-03-11T14:12:57.857+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-03-11T14:12:57.915+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=check_filiere_dim, execution_date=20240311T140837, start_date=20240311T141255, end_date=20240311T141257
+[2024-03-11T14:12:58.178+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-11T14:13:02.739+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

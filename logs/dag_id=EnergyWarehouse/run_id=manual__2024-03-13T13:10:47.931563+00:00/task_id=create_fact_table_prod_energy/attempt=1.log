@@ -1,0 +1,22 @@
+[2024-03-13T13:20:08.351+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.create_fact_table_prod_energy manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:20:08.469+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.create_fact_table_prod_energy manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:20:08.479+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:20:08.567+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_fact_table_prod_energy> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:20:08.648+0000] {standard_task_runner.py:57} INFO - Started process 548 to run task
+[2024-03-13T13:20:08.678+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'create_fact_table_prod_energy', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1591', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpdw6nkxir']
+[2024-03-13T13:20:08.690+0000] {standard_task_runner.py:85} INFO - Job 1591: Subtask create_fact_table_prod_energy
+[2024-03-13T13:20:09.050+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.create_fact_table_prod_energy manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:20:09.946+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='create_fact_table_prod_energy' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:20:11.015+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 487, in create_fact_table_prod_energy
+    fact_table_prod_energy.to_csv(fact_table_prod_energy_, index=False)
+NameError: name 'fact_table_prod_energy' is not defined
+[2024-03-13T13:20:11.120+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=EnergyWarehouse, task_id=create_fact_table_prod_energy, execution_date=20240313T131047, start_date=20240313T132008, end_date=20240313T132011
+[2024-03-13T13:20:11.189+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 1591 for task create_fact_table_prod_energy (name 'fact_table_prod_energy' is not defined; 548)
+[2024-03-13T13:20:11.314+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-03-13T13:20:11.570+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

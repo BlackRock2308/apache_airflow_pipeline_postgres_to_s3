@@ -1,0 +1,14 @@
+[2024-03-10T20:33:38.083+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_dim_annee manual__2024-03-10T20:20:36.100743+00:00 [queued]>
+[2024-03-10T20:33:38.239+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_dim_annee manual__2024-03-10T20:20:36.100743+00:00 [queued]>
+[2024-03-10T20:33:38.269+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-10T20:33:38.817+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_dim_annee> on 2024-03-10 20:20:36.100743+00:00
+[2024-03-10T20:33:39.373+0000] {standard_task_runner.py:57} INFO - Started process 1899 to run task
+[2024-03-10T20:33:39.418+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_dim_annee', 'manual__2024-03-10T20:20:36.100743+00:00', '--job-id', '914', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpvgua4her']
+[2024-03-10T20:33:39.515+0000] {standard_task_runner.py:85} INFO - Job 914: Subtask check_dim_annee
+[2024-03-10T20:33:40.669+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_dim_annee manual__2024-03-10T20:20:36.100743+00:00 [running]> on host 952b3f8a1a94
+[2024-03-10T20:33:42.765+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_dim_annee' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T20:20:36.100743+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T20:20:36.100743+00:00'
+[2024-03-10T20:33:42.866+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fec0d328a70>
+[2024-03-10T20:33:42.879+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-03-10T20:33:42.934+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=check_dim_annee, execution_date=20240310T202036, start_date=20240310T203338, end_date=20240310T203342
+[2024-03-10T20:33:43.034+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-10T20:33:43.929+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

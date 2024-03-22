@@ -1,0 +1,14 @@
+[2024-03-11T14:57:21.486+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_grand_secteur_dim manual__2024-03-11T14:54:13.739296+00:00 [queued]>
+[2024-03-11T14:57:21.560+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_grand_secteur_dim manual__2024-03-11T14:54:13.739296+00:00 [queued]>
+[2024-03-11T14:57:21.563+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-11T14:57:21.697+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_grand_secteur_dim> on 2024-03-11 14:54:13.739296+00:00
+[2024-03-11T14:57:21.752+0000] {standard_task_runner.py:57} INFO - Started process 6296 to run task
+[2024-03-11T14:57:21.872+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_grand_secteur_dim', 'manual__2024-03-11T14:54:13.739296+00:00', '--job-id', '1469', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpz4wxqgwh']
+[2024-03-11T14:57:21.923+0000] {standard_task_runner.py:85} INFO - Job 1469: Subtask check_grand_secteur_dim
+[2024-03-11T14:57:22.355+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_grand_secteur_dim manual__2024-03-11T14:54:13.739296+00:00 [running]> on host 952b3f8a1a94
+[2024-03-11T14:57:23.349+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_grand_secteur_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T14:54:13.739296+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T14:54:13.739296+00:00'
+[2024-03-11T14:57:23.428+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f1b5c1d6b00>
+[2024-03-11T14:57:23.438+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-03-11T14:57:23.476+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=check_grand_secteur_dim, execution_date=20240311T145413, start_date=20240311T145721, end_date=20240311T145723
+[2024-03-11T14:57:23.834+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-11T14:57:24.030+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,13 @@
+[2024-03-10T21:18:52.286+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_category_consommation manual__2024-03-10T21:17:23.324806+00:00 [queued]>
+[2024-03-10T21:18:52.402+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_category_consommation manual__2024-03-10T21:17:23.324806+00:00 [queued]>
+[2024-03-10T21:18:52.410+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-10T21:18:52.996+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_dim_category_consommation> on 2024-03-10 21:17:23.324806+00:00
+[2024-03-10T21:18:53.402+0000] {standard_task_runner.py:57} INFO - Started process 3226 to run task
+[2024-03-10T21:18:53.537+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'create_dim_category_consommation', 'manual__2024-03-10T21:17:23.324806+00:00', '--job-id', '1022', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpo5zj7utr']
+[2024-03-10T21:18:53.557+0000] {standard_task_runner.py:85} INFO - Job 1022: Subtask create_dim_category_consommation
+[2024-03-10T21:18:54.545+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.create_dim_category_consommation manual__2024-03-10T21:17:23.324806+00:00 [running]> on host 952b3f8a1a94
+[2024-03-10T21:18:57.449+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='create_dim_category_consommation' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T21:17:23.324806+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T21:17:23.324806+00:00'
+[2024-03-10T21:18:59.302+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-03-10T21:18:59.434+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=create_dim_category_consommation, execution_date=20240310T211723, start_date=20240310T211852, end_date=20240310T211859
+[2024-03-10T21:19:02.814+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-10T21:19:06.028+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

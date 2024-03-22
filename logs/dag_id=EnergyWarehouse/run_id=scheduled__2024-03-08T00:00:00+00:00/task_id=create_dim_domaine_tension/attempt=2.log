@@ -1,0 +1,22 @@
+[2024-03-10T20:33:32.783+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_domaine_tension scheduled__2024-03-08T00:00:00+00:00 [queued]>
+[2024-03-10T20:33:32.920+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_domaine_tension scheduled__2024-03-08T00:00:00+00:00 [queued]>
+[2024-03-10T20:33:32.923+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-03-10T20:33:33.100+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_dim_domaine_tension> on 2024-03-08 00:00:00+00:00
+[2024-03-10T20:33:33.279+0000] {standard_task_runner.py:57} INFO - Started process 1891 to run task
+[2024-03-10T20:33:33.333+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'create_dim_domaine_tension', 'scheduled__2024-03-08T00:00:00+00:00', '--job-id', '913', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp365pbubv']
+[2024-03-10T20:33:33.372+0000] {standard_task_runner.py:85} INFO - Job 913: Subtask create_dim_domaine_tension
+[2024-03-10T20:33:34.630+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.create_dim_domaine_tension scheduled__2024-03-08T00:00:00+00:00 [running]> on host 952b3f8a1a94
+[2024-03-10T20:33:38.666+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='create_dim_domaine_tension' AIRFLOW_CTX_EXECUTION_DATE='2024-03-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-08T00:00:00+00:00'
+[2024-03-10T20:33:39.422+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 235, in create_dim_domaine_tension
+    domaine_tension = df_prod_elec_region[['domaine_de_tension']].drop_duplicates().reset_index(drop=True)
+TypeError: 'NoneType' object is not subscriptable
+[2024-03-10T20:33:39.520+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=EnergyWarehouse, task_id=create_dim_domaine_tension, execution_date=20240308T000000, start_date=20240310T203332, end_date=20240310T203339
+[2024-03-10T20:33:39.639+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 913 for task create_dim_domaine_tension ('NoneType' object is not subscriptable; 1891)
+[2024-03-10T20:33:39.857+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-03-10T20:33:40.359+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

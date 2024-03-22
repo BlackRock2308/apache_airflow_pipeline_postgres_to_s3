@@ -1,0 +1,507 @@
+[2024-02-24T15:17:33.328+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:17:33.354+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:17:33.357+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:17:33.395+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:17:33.414+0000] {standard_task_runner.py:57} INFO - Started process 3766 to run task
+[2024-02-24T15:17:33.426+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '316', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp6ouol1oo']
+[2024-02-24T15:17:33.435+0000] {standard_task_runner.py:85} INFO - Job 316: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:17:33.605+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:17:33.802+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:17:33.832+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:17:33.905+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:17:33.964+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:17:34.081+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:18:05.875+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:18:05.897+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:18:05.899+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:18:05.931+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:18:05.953+0000] {standard_task_runner.py:57} INFO - Started process 3778 to run task
+[2024-02-24T15:18:05.963+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '317', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp8onigp_4']
+[2024-02-24T15:18:05.972+0000] {standard_task_runner.py:85} INFO - Job 317: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:18:06.074+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:18:06.370+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:18:06.407+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:18:06.467+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:18:06.503+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:18:06.602+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:18:39.666+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:18:39.714+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:18:39.751+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:18:39.851+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:18:39.885+0000] {standard_task_runner.py:57} INFO - Started process 3790 to run task
+[2024-02-24T15:18:39.899+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '318', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp3uvg8bf0']
+[2024-02-24T15:18:39.908+0000] {standard_task_runner.py:85} INFO - Job 318: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:18:40.028+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:18:40.772+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:18:40.818+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:18:40.879+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:18:40.944+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:18:41.126+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:19:14.621+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:19:14.663+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:19:14.668+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:19:14.717+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:19:14.735+0000] {standard_task_runner.py:57} INFO - Started process 3802 to run task
+[2024-02-24T15:19:14.783+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp7twta1s6']
+[2024-02-24T15:19:14.798+0000] {standard_task_runner.py:85} INFO - Job 319: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:19:14.952+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:19:15.347+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:19:15.395+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:19:15.474+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:19:15.550+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:19:15.662+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:19:47.710+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:19:47.738+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:19:47.741+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:19:47.785+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:19:47.809+0000] {standard_task_runner.py:57} INFO - Started process 3815 to run task
+[2024-02-24T15:19:47.820+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '320', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpf3_hc09e']
+[2024-02-24T15:19:47.829+0000] {standard_task_runner.py:85} INFO - Job 320: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:19:48.005+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:19:48.484+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:19:48.514+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:19:48.567+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:19:48.612+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:19:48.671+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:20:20.839+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:20:20.885+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:20:20.889+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:20:20.934+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:20:20.948+0000] {standard_task_runner.py:57} INFO - Started process 3827 to run task
+[2024-02-24T15:20:20.959+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '321', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpnuzguq06']
+[2024-02-24T15:20:20.968+0000] {standard_task_runner.py:85} INFO - Job 321: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:20:21.250+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:20:22.096+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:20:22.119+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:20:22.158+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:20:22.195+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:20:22.267+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:20:53.990+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:20:54.011+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:20:54.014+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:20:54.045+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:20:54.059+0000] {standard_task_runner.py:57} INFO - Started process 3839 to run task
+[2024-02-24T15:20:54.070+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '322', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpn7tg5qyr']
+[2024-02-24T15:20:54.076+0000] {standard_task_runner.py:85} INFO - Job 322: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:20:54.180+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:20:54.417+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:20:54.444+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:20:54.483+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:20:54.530+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:20:54.598+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:21:26.153+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:21:26.181+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:21:26.184+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:21:26.221+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:21:26.238+0000] {standard_task_runner.py:57} INFO - Started process 3851 to run task
+[2024-02-24T15:21:26.251+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '323', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpvzprskk7']
+[2024-02-24T15:21:26.258+0000] {standard_task_runner.py:85} INFO - Job 323: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:21:26.381+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:21:26.837+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:21:26.871+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:21:26.928+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:21:26.973+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:21:27.087+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:22:02.210+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:22:02.236+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:22:02.239+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:22:02.270+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:22:02.285+0000] {standard_task_runner.py:57} INFO - Started process 3863 to run task
+[2024-02-24T15:22:02.294+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '324', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpod6653sb']
+[2024-02-24T15:22:02.301+0000] {standard_task_runner.py:85} INFO - Job 324: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:22:02.402+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:22:02.683+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:22:02.711+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:22:02.756+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:22:02.805+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:22:02.873+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:22:37.103+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:22:37.162+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:22:37.165+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:22:37.201+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:22:37.219+0000] {standard_task_runner.py:57} INFO - Started process 3875 to run task
+[2024-02-24T15:22:37.239+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '325', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpklru7cgx']
+[2024-02-24T15:22:37.248+0000] {standard_task_runner.py:85} INFO - Job 325: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:22:37.505+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:22:37.705+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:22:37.774+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:22:37.988+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:22:38.239+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:22:38.606+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:23:09.925+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:23:09.949+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:23:09.952+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:23:09.983+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:23:09.997+0000] {standard_task_runner.py:57} INFO - Started process 3887 to run task
+[2024-02-24T15:23:10.006+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '326', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp8lbdr_ez']
+[2024-02-24T15:23:10.014+0000] {standard_task_runner.py:85} INFO - Job 326: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:23:10.108+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:23:10.423+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:23:10.467+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:23:10.544+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:23:10.601+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:23:10.667+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:23:48.013+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:23:48.042+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:23:48.045+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:23:48.079+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:23:48.095+0000] {standard_task_runner.py:57} INFO - Started process 3899 to run task
+[2024-02-24T15:23:48.107+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '327', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp1bhbpnk_']
+[2024-02-24T15:23:48.117+0000] {standard_task_runner.py:85} INFO - Job 327: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:23:48.264+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:23:48.472+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:23:48.497+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:23:48.534+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:23:48.581+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:23:48.640+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:24:29.093+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:24:29.134+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:24:29.138+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:24:29.177+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:24:29.210+0000] {standard_task_runner.py:57} INFO - Started process 3911 to run task
+[2024-02-24T15:24:29.227+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '328', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpk61lnwib']
+[2024-02-24T15:24:29.399+0000] {standard_task_runner.py:85} INFO - Job 328: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:24:29.993+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:24:30.757+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:24:30.825+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:24:30.905+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:24:30.993+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:24:31.881+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:25:08.666+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:25:08.717+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:25:08.724+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:25:08.874+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:25:08.947+0000] {standard_task_runner.py:57} INFO - Started process 3923 to run task
+[2024-02-24T15:25:09.052+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '329', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpzbfx48p6']
+[2024-02-24T15:25:09.077+0000] {standard_task_runner.py:85} INFO - Job 329: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:25:09.396+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:25:09.623+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:25:09.661+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:25:09.716+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:25:09.779+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:25:09.855+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:25:43.056+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:25:43.084+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:25:43.095+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:25:43.138+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:25:43.151+0000] {standard_task_runner.py:57} INFO - Started process 3935 to run task
+[2024-02-24T15:25:43.161+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '330', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpv4tg9qrl']
+[2024-02-24T15:25:43.167+0000] {standard_task_runner.py:85} INFO - Job 330: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:25:43.270+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:25:43.681+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:25:43.706+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:25:43.756+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:25:43.803+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:25:43.884+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:26:28.151+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:26:28.192+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:26:28.198+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:26:28.316+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:26:28.420+0000] {standard_task_runner.py:57} INFO - Started process 3953 to run task
+[2024-02-24T15:26:28.441+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '333', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpb5gsv8te']
+[2024-02-24T15:26:28.457+0000] {standard_task_runner.py:85} INFO - Job 333: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:26:28.635+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:26:28.969+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:26:29.017+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:26:29.076+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:26:29.145+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:26:29.266+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:27:00.793+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:27:00.817+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:27:00.819+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:27:00.852+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:27:00.868+0000] {standard_task_runner.py:57} INFO - Started process 3968 to run task
+[2024-02-24T15:27:00.879+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '335', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp3w3plc8b']
+[2024-02-24T15:27:00.886+0000] {standard_task_runner.py:85} INFO - Job 335: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:27:01.089+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:27:01.349+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:27:01.434+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:27:01.497+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:27:01.681+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:27:01.932+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:27:38.316+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:27:38.412+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:27:38.416+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:27:38.529+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:27:38.551+0000] {standard_task_runner.py:57} INFO - Started process 3983 to run task
+[2024-02-24T15:27:38.577+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '337', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpiy87ip0h']
+[2024-02-24T15:27:38.591+0000] {standard_task_runner.py:85} INFO - Job 337: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:27:38.785+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:27:39.634+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:27:39.827+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:27:40.188+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:27:40.389+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:27:40.795+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:28:12.965+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:28:12.989+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:28:12.991+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:28:13.018+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:28:13.031+0000] {standard_task_runner.py:57} INFO - Started process 3998 to run task
+[2024-02-24T15:28:13.040+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '339', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpic_51ctl']
+[2024-02-24T15:28:13.051+0000] {standard_task_runner.py:85} INFO - Job 339: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:28:13.147+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:28:13.339+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:28:13.376+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:28:13.456+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:28:13.494+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:28:13.564+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:28:46.473+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:28:46.506+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:28:46.514+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:28:46.644+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:28:46.695+0000] {standard_task_runner.py:57} INFO - Started process 4013 to run task
+[2024-02-24T15:28:46.745+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '341', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpkkhuwhgj']
+[2024-02-24T15:28:46.780+0000] {standard_task_runner.py:85} INFO - Job 341: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:28:47.549+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:28:48.407+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:28:48.440+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:28:48.497+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:28:48.541+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:28:48.634+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:29:21.083+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:29:21.136+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:29:21.142+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:29:21.192+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:29:21.213+0000] {standard_task_runner.py:57} INFO - Started process 4029 to run task
+[2024-02-24T15:29:21.236+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '343', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp9kziq0e3']
+[2024-02-24T15:29:21.243+0000] {standard_task_runner.py:85} INFO - Job 343: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:29:21.361+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:29:22.095+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:29:22.157+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:29:22.273+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:29:22.312+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:29:22.381+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:29:54.831+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:29:54.866+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:29:54.869+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:29:54.920+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:29:54.992+0000] {standard_task_runner.py:57} INFO - Started process 4044 to run task
+[2024-02-24T15:29:55.006+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '345', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp6pwwdlr_']
+[2024-02-24T15:29:55.012+0000] {standard_task_runner.py:85} INFO - Job 345: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:29:55.149+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:29:55.548+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:29:55.575+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:29:55.632+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:29:55.681+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:29:55.742+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:30:28.419+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:30:28.471+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:30:28.485+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:30:28.551+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:30:28.589+0000] {standard_task_runner.py:57} INFO - Started process 4059 to run task
+[2024-02-24T15:30:28.607+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '347', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp3wu_b19c']
+[2024-02-24T15:30:28.663+0000] {standard_task_runner.py:85} INFO - Job 347: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:30:29.305+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:30:29.891+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:30:29.974+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:30:30.199+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:30:30.330+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:30:30.531+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:31:05.709+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:31:05.759+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:31:05.764+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:31:05.830+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:31:05.846+0000] {standard_task_runner.py:57} INFO - Started process 4074 to run task
+[2024-02-24T15:31:05.892+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '349', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpr4u6812h']
+[2024-02-24T15:31:05.906+0000] {standard_task_runner.py:85} INFO - Job 349: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:31:06.076+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:31:06.358+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:31:06.449+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:31:06.571+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:31:06.688+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:31:06.981+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:31:39.006+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:31:39.103+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:31:39.107+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:31:39.149+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:31:39.170+0000] {standard_task_runner.py:57} INFO - Started process 4089 to run task
+[2024-02-24T15:31:39.186+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '351', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp5eegv_we']
+[2024-02-24T15:31:39.244+0000] {standard_task_runner.py:85} INFO - Job 351: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:31:39.506+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:31:39.958+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:31:39.990+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:31:40.077+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:31:40.139+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:31:40.212+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:32:13.324+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:32:13.351+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:32:13.355+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:32:13.391+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:32:13.407+0000] {standard_task_runner.py:57} INFO - Started process 4103 to run task
+[2024-02-24T15:32:13.418+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '353', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp3nd2lotk']
+[2024-02-24T15:32:13.430+0000] {standard_task_runner.py:85} INFO - Job 353: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:32:13.525+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:32:13.687+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:32:13.715+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:32:13.754+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:32:13.793+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:32:13.871+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:32:47.221+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:32:47.245+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:32:47.248+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:32:47.283+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:32:47.333+0000] {standard_task_runner.py:57} INFO - Started process 4118 to run task
+[2024-02-24T15:32:47.362+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '355', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpvpqphqf7']
+[2024-02-24T15:32:47.386+0000] {standard_task_runner.py:85} INFO - Job 355: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:32:47.616+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:32:47.783+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:32:47.805+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:32:47.850+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:32:47.885+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:32:48.032+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:33:20.262+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:33:20.293+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:33:20.296+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:33:20.348+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:33:20.371+0000] {standard_task_runner.py:57} INFO - Started process 4133 to run task
+[2024-02-24T15:33:20.388+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '357', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp6ajsiqg4']
+[2024-02-24T15:33:20.395+0000] {standard_task_runner.py:85} INFO - Job 357: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:33:20.520+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:33:20.709+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:33:20.735+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:33:20.775+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:33:20.809+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:33:20.867+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:33:53.099+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:33:53.127+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:33:53.129+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:33:53.161+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:33:53.176+0000] {standard_task_runner.py:57} INFO - Started process 4148 to run task
+[2024-02-24T15:33:53.190+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '359', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpg5poo05e']
+[2024-02-24T15:33:53.196+0000] {standard_task_runner.py:85} INFO - Job 359: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:33:53.298+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:33:53.456+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:33:53.479+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:33:53.517+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:33:53.564+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:33:53.678+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:34:26.554+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:34:26.599+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:34:26.636+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:34:26.733+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:34:26.764+0000] {standard_task_runner.py:57} INFO - Started process 4163 to run task
+[2024-02-24T15:34:26.780+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '361', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp229n8jxx']
+[2024-02-24T15:34:26.787+0000] {standard_task_runner.py:85} INFO - Job 361: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:34:27.014+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:34:27.278+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:34:27.315+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:34:27.365+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:34:27.443+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:34:27.586+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:35:13.265+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:35:13.396+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:35:13.443+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:35:13.619+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:35:14.914+0000] {standard_task_runner.py:57} INFO - Started process 4178 to run task
+[2024-02-24T15:35:15.021+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '363', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmp_aaiv71t']
+[2024-02-24T15:35:15.055+0000] {standard_task_runner.py:85} INFO - Job 363: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:35:16.257+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:35:19.849+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:35:20.628+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:35:21.866+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:35:22.185+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:35:23.004+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:36:10.801+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:36:10.927+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:36:10.997+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:36:11.115+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:36:11.189+0000] {standard_task_runner.py:57} INFO - Started process 4193 to run task
+[2024-02-24T15:36:11.277+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '365', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpksr5o49o']
+[2024-02-24T15:36:11.376+0000] {standard_task_runner.py:85} INFO - Job 365: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:36:12.993+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:36:14.449+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:36:14.843+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:36:15.125+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:36:15.347+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:36:15.639+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:37:03.176+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:37:03.398+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:37:03.407+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:37:04.258+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:37:04.501+0000] {standard_task_runner.py:57} INFO - Started process 4219 to run task
+[2024-02-24T15:37:04.623+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '367', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpdg5qd_pk']
+[2024-02-24T15:37:04.702+0000] {standard_task_runner.py:85} INFO - Job 367: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:37:05.533+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:37:09.009+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:37:09.543+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:37:09.907+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:37:10.197+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:37:10.768+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:37:55.481+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:37:55.527+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:37:55.531+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:37:55.598+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:37:55.617+0000] {standard_task_runner.py:57} INFO - Started process 4233 to run task
+[2024-02-24T15:37:55.670+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '368', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpxy4z8sx9']
+[2024-02-24T15:37:55.693+0000] {standard_task_runner.py:85} INFO - Job 368: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:37:56.173+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:37:56.787+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:37:56.967+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:37:57.078+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:37:57.149+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:37:57.736+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:38:47.339+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:38:47.528+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:38:47.593+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:38:48.087+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:38:48.347+0000] {standard_task_runner.py:57} INFO - Started process 4248 to run task
+[2024-02-24T15:38:48.461+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '371', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpf87dg_vj']
+[2024-02-24T15:38:48.484+0000] {standard_task_runner.py:85} INFO - Job 371: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:38:51.869+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:38:55.382+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:38:55.557+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:38:55.742+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:38:55.984+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:38:56.703+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:39:30.623+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:39:30.681+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:39:30.684+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:39:30.749+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:39:30.830+0000] {standard_task_runner.py:57} INFO - Started process 4263 to run task
+[2024-02-24T15:39:30.843+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '373', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpmd2f0hb2']
+[2024-02-24T15:39:30.860+0000] {standard_task_runner.py:85} INFO - Job 373: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:39:31.530+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:39:32.888+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:39:32.922+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d22a050>
+[2024-02-24T15:39:33.065+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:39:33.222+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:39:33.370+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:40:06.339+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:40:06.367+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:40:06.370+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:40:06.407+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:40:06.427+0000] {standard_task_runner.py:57} INFO - Started process 4280 to run task
+[2024-02-24T15:40:06.439+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '376', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpy7iiq1ja']
+[2024-02-24T15:40:06.446+0000] {standard_task_runner.py:85} INFO - Job 376: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:40:06.754+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:40:07.152+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:40:07.195+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:40:07.260+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:40:07.305+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:40:07.376+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:40:39.796+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:40:39.829+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:40:39.832+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:40:39.865+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:40:39.881+0000] {standard_task_runner.py:57} INFO - Started process 4298 to run task
+[2024-02-24T15:40:39.891+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '379', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpfut4zrk7']
+[2024-02-24T15:40:39.898+0000] {standard_task_runner.py:85} INFO - Job 379: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:40:40.058+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:40:40.384+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:40:40.430+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d225e60>
+[2024-02-24T15:40:40.495+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:40:40.576+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:40:40.749+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-02-24T15:41:42.210+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:41:42.445+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [queued]>
+[2024-02-24T15:41:42.448+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-24T15:41:42.635+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): wait_for_clean_csv_sensor> on 2024-02-24 15:16:08.666103+00:00
+[2024-02-24T15:41:42.742+0000] {standard_task_runner.py:57} INFO - Started process 4325 to run task
+[2024-02-24T15:41:42.795+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'wait_for_clean_csv_sensor', 'manual__2024-02-24T15:16:08.666103+00:00', '--job-id', '382', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpwg7r6eum']
+[2024-02-24T15:41:42.856+0000] {standard_task_runner.py:85} INFO - Job 382: Subtask wait_for_clean_csv_sensor
+[2024-02-24T15:41:43.985+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.wait_for_clean_csv_sensor manual__2024-02-24T15:16:08.666103+00:00 [running]> on host 952b3f8a1a94
+[2024-02-24T15:41:45.621+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='wait_for_clean_csv_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T15:16:08.666103+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-24T15:16:08.666103+00:00'
+[2024-02-24T15:41:45.755+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7fe08d215e60>
+[2024-02-24T15:41:46.188+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-02-24T15:41:46.308+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-24T15:41:47.243+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

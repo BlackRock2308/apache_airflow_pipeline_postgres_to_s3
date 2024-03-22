@@ -1,0 +1,79 @@
+[2024-03-13T13:14:48.721+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:14:49.473+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:14:49.541+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:14:55.949+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_category_consommation_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:14:56.238+0000] {standard_task_runner.py:57} INFO - Started process 347 to run task
+[2024-03-13T13:14:56.293+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_category_consommation_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1553', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpy89zjwe7']
+[2024-03-13T13:14:56.342+0000] {standard_task_runner.py:85} INFO - Job 1553: Subtask check_category_consommation_dim
+[2024-03-13T13:14:58.079+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:15:03.341+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_category_consommation_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:15:03.932+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9e3b0>
+[2024-03-13T13:15:05.097+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:15:05.334+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:15:07.696+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:15:48.489+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:15:48.575+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:15:48.584+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:15:48.703+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_category_consommation_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:15:48.740+0000] {standard_task_runner.py:57} INFO - Started process 370 to run task
+[2024-03-13T13:15:48.820+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_category_consommation_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1559', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpq4thqiz0']
+[2024-03-13T13:15:48.910+0000] {standard_task_runner.py:85} INFO - Job 1559: Subtask check_category_consommation_dim
+[2024-03-13T13:15:49.383+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:15:50.138+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_category_consommation_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:15:50.226+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9e440>
+[2024-03-13T13:15:50.372+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:15:50.441+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:15:50.665+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:16:24.513+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:16:24.571+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:16:24.580+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:16:24.663+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_category_consommation_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:16:24.749+0000] {standard_task_runner.py:57} INFO - Started process 397 to run task
+[2024-03-13T13:16:24.840+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_category_consommation_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1566', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmp_pkpu0vq']
+[2024-03-13T13:16:24.942+0000] {standard_task_runner.py:85} INFO - Job 1566: Subtask check_category_consommation_dim
+[2024-03-13T13:16:25.254+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:16:25.523+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_category_consommation_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:16:25.549+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9e440>
+[2024-03-13T13:16:25.588+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:16:25.632+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:16:25.772+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:17:00.011+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:00.133+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:00.148+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:17:00.202+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_category_consommation_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:17:00.219+0000] {standard_task_runner.py:57} INFO - Started process 428 to run task
+[2024-03-13T13:17:00.244+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_category_consommation_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1573', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpsoaiuino']
+[2024-03-13T13:17:00.258+0000] {standard_task_runner.py:85} INFO - Job 1573: Subtask check_category_consommation_dim
+[2024-03-13T13:17:00.607+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:17:00.984+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_category_consommation_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:17:01.254+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9e440>
+[2024-03-13T13:17:01.409+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:17:01.535+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:17:01.852+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:17:34.080+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:34.149+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:17:34.151+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:17:34.192+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_category_consommation_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:17:34.208+0000] {standard_task_runner.py:57} INFO - Started process 456 to run task
+[2024-03-13T13:17:34.218+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_category_consommation_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1580', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmprwnoyyub']
+[2024-03-13T13:17:34.226+0000] {standard_task_runner.py:85} INFO - Job 1580: Subtask check_category_consommation_dim
+[2024-03-13T13:17:34.346+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:17:34.668+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_category_consommation_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:17:34.740+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9e440>
+[2024-03-13T13:17:34.840+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-03-13T13:17:34.905+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:17:35.201+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-13T13:18:08.693+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:18:08.765+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [queued]>
+[2024-03-13T13:18:08.770+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-13T13:18:08.852+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonSensor): check_category_consommation_dim> on 2024-03-13 13:10:47.931563+00:00
+[2024-03-13T13:18:08.880+0000] {standard_task_runner.py:57} INFO - Started process 483 to run task
+[2024-03-13T13:18:08.897+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'check_category_consommation_dim', 'manual__2024-03-13T13:10:47.931563+00:00', '--job-id', '1586', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpe69jq96o']
+[2024-03-13T13:18:08.919+0000] {standard_task_runner.py:85} INFO - Job 1586: Subtask check_category_consommation_dim
+[2024-03-13T13:18:09.147+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.check_category_consommation_dim manual__2024-03-13T13:10:47.931563+00:00 [running]> on host 952b3f8a1a94
+[2024-03-13T13:18:10.158+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='check_category_consommation_dim' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T13:10:47.931563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T13:10:47.931563+00:00'
+[2024-03-13T13:18:10.366+0000] {python.py:72} INFO - Poking callable: <function _wait_for_csv at 0x7f0531b9e440>
+[2024-03-13T13:18:10.391+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2024-03-13T13:18:10.553+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EnergyWarehouse, task_id=check_category_consommation_dim, execution_date=20240313T131047, start_date=20240313T131808, end_date=20240313T131810
+[2024-03-13T13:18:10.811+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-13T13:18:11.100+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

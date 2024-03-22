@@ -1,0 +1,22 @@
+[2024-03-10T20:49:48.276+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_filiere manual__2024-03-10T20:46:17.709120+00:00 [queued]>
+[2024-03-10T20:49:49.907+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EnergyWarehouse.create_dim_filiere manual__2024-03-10T20:46:17.709120+00:00 [queued]>
+[2024-03-10T20:49:49.912+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-03-10T20:49:51.942+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_dim_filiere> on 2024-03-10 20:46:17.709120+00:00
+[2024-03-10T20:49:53.956+0000] {standard_task_runner.py:57} INFO - Started process 2355 to run task
+[2024-03-10T20:49:56.072+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EnergyWarehouse', 'create_dim_filiere', 'manual__2024-03-10T20:46:17.709120+00:00', '--job-id', '950', '--raw', '--subdir', 'DAGS_FOLDER/***-to-bigquery-dag/***_to_bigquerry_dag.py', '--cfg-path', '/tmp/tmpzac1j6tt']
+[2024-03-10T20:49:56.885+0000] {standard_task_runner.py:85} INFO - Job 950: Subtask create_dim_filiere
+[2024-03-10T20:50:03.466+0000] {task_command.py:410} INFO - Running <TaskInstance: EnergyWarehouse.create_dim_filiere manual__2024-03-10T20:46:17.709120+00:00 [running]> on host 952b3f8a1a94
+[2024-03-10T20:50:25.373+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mbaye SENE' AIRFLOW_CTX_DAG_ID='EnergyWarehouse' AIRFLOW_CTX_TASK_ID='create_dim_filiere' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T20:46:17.709120+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T20:46:17.709120+00:00'
+[2024-03-10T20:50:28.057+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/airflow-to-bigquery-dag/airflow_to_bigquerry_dag.py", line 298, in create_dim_filiere
+    filiere_dim = df_conso_energy_dept[['id_filiere',  'filiere']].drop_duplicates().reset_index(drop=True).append({'id_filiere': -1, 'filiere': 'unknown'}, ignore_index=True)
+TypeError: 'NoneType' object is not subscriptable
+[2024-03-10T20:50:28.155+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=EnergyWarehouse, task_id=create_dim_filiere, execution_date=20240310T204617, start_date=20240310T204948, end_date=20240310T205028
+[2024-03-10T20:50:33.462+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 950 for task create_dim_filiere ('NoneType' object is not subscriptable; 2355)
+[2024-03-10T20:50:36.587+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-03-10T20:50:42.077+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

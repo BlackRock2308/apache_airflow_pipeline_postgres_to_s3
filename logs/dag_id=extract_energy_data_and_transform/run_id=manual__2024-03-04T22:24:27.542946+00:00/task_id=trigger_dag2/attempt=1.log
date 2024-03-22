@@ -1,0 +1,12 @@
+[2024-03-04T22:25:07.616+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.trigger_dag2 manual__2024-03-04T22:24:27.542946+00:00 [queued]>
+[2024-03-04T22:25:07.637+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_energy_data_and_transform.trigger_dag2 manual__2024-03-04T22:24:27.542946+00:00 [queued]>
+[2024-03-04T22:25:07.640+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-03-04T22:25:07.666+0000] {taskinstance.py:1327} INFO - Executing <Task(TriggerDagRunOperator): trigger_dag2> on 2024-03-04 22:24:27.542946+00:00
+[2024-03-04T22:25:07.679+0000] {standard_task_runner.py:57} INFO - Started process 944 to run task
+[2024-03-04T22:25:07.686+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'extract_energy_data_and_transform', 'trigger_dag2', 'manual__2024-03-04T22:24:27.542946+00:00', '--job-id', '819', '--raw', '--subdir', 'DAGS_FOLDER/energy-prod-cons-dag/data_energy_dag.py', '--cfg-path', '/tmp/tmpfbzc_3tt']
+[2024-03-04T22:25:07.692+0000] {standard_task_runner.py:85} INFO - Job 819: Subtask trigger_dag2
+[2024-03-04T22:25:07.779+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_energy_data_and_transform.trigger_dag2 manual__2024-03-04T22:24:27.542946+00:00 [running]> on host 952b3f8a1a94
+[2024-03-04T22:25:07.954+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_energy_data_and_transform' AIRFLOW_CTX_TASK_ID='trigger_dag2' AIRFLOW_CTX_EXECUTION_DATE='2024-03-04T22:24:27.542946+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-04T22:24:27.542946+00:00'
+[2024-03-04T22:25:08.166+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=extract_energy_data_and_transform, task_id=trigger_dag2, execution_date=20240304T222427, start_date=20240304T222507, end_date=20240304T222508
+[2024-03-04T22:25:08.226+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-03-04T22:25:08.291+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

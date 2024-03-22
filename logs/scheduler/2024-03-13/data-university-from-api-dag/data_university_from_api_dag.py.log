@@ -1,0 +1,745 @@
+[2024-03-13T08:14:38.933+0000] {processor.py:157} INFO - Started process (PID=81) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:14:38.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:14:39.263+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:14:39.263+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:14:39.490+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:14:40.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 1.200 seconds
+[2024-03-13T08:15:27.661+0000] {processor.py:157} INFO - Started process (PID=97) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:15:27.690+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:15:27.871+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:15:27.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:15:28.092+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:15:28.724+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 1.180 seconds
+[2024-03-13T08:16:06.911+0000] {processor.py:157} INFO - Started process (PID=107) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:16:06.995+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:16:07.029+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:16:07.023+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:16:07.104+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:16:07.238+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.398 seconds
+[2024-03-13T08:17:25.203+0000] {processor.py:157} INFO - Started process (PID=124) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:17:25.313+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:17:25.419+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:17:25.419+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:17:25.586+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:17:26.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 1.232 seconds
+[2024-03-13T08:18:06.200+0000] {processor.py:157} INFO - Started process (PID=134) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:18:06.250+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:18:06.357+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:18:06.356+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:18:06.459+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:18:06.869+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.925 seconds
+[2024-03-13T08:18:42.928+0000] {processor.py:157} INFO - Started process (PID=148) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:18:43.014+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:18:43.103+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:18:43.102+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:18:43.506+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:18:44.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 1.291 seconds
+[2024-03-13T08:19:16.706+0000] {processor.py:157} INFO - Started process (PID=157) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:19:16.824+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:19:16.994+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:19:16.993+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:19:18.490+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:19:19.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 3.571 seconds
+[2024-03-13T08:19:55.055+0000] {processor.py:157} INFO - Started process (PID=166) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:19:55.104+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:19:55.149+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:19:55.126+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:19:55.312+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:19:55.378+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.349 seconds
+[2024-03-13T08:20:26.279+0000] {processor.py:157} INFO - Started process (PID=176) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:20:26.298+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:20:26.322+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:20:26.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:20:26.457+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:20:26.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.386 seconds
+[2024-03-13T08:21:00.442+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:21:00.468+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:21:00.474+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:21:00.474+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:21:00.552+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:21:00.783+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.458 seconds
+[2024-03-13T08:21:36.345+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:21:36.374+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:21:36.402+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:21:36.401+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:21:36.622+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:21:36.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.715 seconds
+[2024-03-13T08:22:12.757+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:22:12.792+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:22:12.883+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:22:12.883+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:22:13.070+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:22:13.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.705 seconds
+[2024-03-13T08:31:13.439+0000] {processor.py:157} INFO - Started process (PID=65) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:31:13.501+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:31:13.549+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:31:13.549+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:31:14.022+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:31:14.400+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 1.134 seconds
+[2024-03-13T08:31:59.961+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:32:00.002+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:32:00.275+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:32:00.138+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:32:00.881+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:32:01.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 1.704 seconds
+[2024-03-13T08:32:34.095+0000] {processor.py:157} INFO - Started process (PID=83) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:32:34.113+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:32:34.210+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:32:34.210+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:32:34.365+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:32:34.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.525 seconds
+[2024-03-13T08:33:06.850+0000] {processor.py:157} INFO - Started process (PID=93) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:33:06.875+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:33:06.925+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:33:06.925+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:33:07.027+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:33:07.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.426 seconds
+[2024-03-13T08:33:38.197+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:33:38.233+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:33:38.257+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:33:38.256+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:33:38.374+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:33:38.897+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.782 seconds
+[2024-03-13T08:34:10.429+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:34:10.468+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:34:10.499+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:34:10.499+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:34:10.894+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:34:11.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.879 seconds
+[2024-03-13T08:34:41.715+0000] {processor.py:157} INFO - Started process (PID=119) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:34:41.720+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:34:41.734+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:34:41.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:34:41.756+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:34:41.798+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.092 seconds
+[2024-03-13T08:35:12.328+0000] {processor.py:157} INFO - Started process (PID=129) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:35:12.331+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:35:12.340+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:35:12.340+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:35:12.366+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:35:12.400+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.081 seconds
+[2024-03-13T08:35:43.068+0000] {processor.py:157} INFO - Started process (PID=140) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:35:43.074+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:35:43.083+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:35:43.083+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:35:43.102+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:35:43.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.103 seconds
+[2024-03-13T08:36:13.347+0000] {processor.py:157} INFO - Started process (PID=150) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:36:13.353+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:36:13.365+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:36:13.365+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:36:13.384+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:36:13.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.095 seconds
+[2024-03-13T08:36:43.898+0000] {processor.py:157} INFO - Started process (PID=161) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:36:43.925+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:36:43.960+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:36:43.960+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:36:44.021+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:36:44.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.222 seconds
+[2024-03-13T08:37:14.763+0000] {processor.py:157} INFO - Started process (PID=170) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:37:14.778+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:37:14.808+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:37:14.808+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:37:14.824+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:37:14.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.106 seconds
+[2024-03-13T08:37:45.355+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:37:45.367+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:37:45.380+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:37:45.379+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:37:45.405+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:37:45.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.150 seconds
+[2024-03-13T08:38:15.908+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:38:15.913+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:38:15.928+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:38:15.927+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:38:15.958+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:38:16.025+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.137 seconds
+[2024-03-13T08:38:46.245+0000] {processor.py:157} INFO - Started process (PID=201) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:38:46.267+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:38:46.278+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:38:46.278+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:38:46.326+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:38:46.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.149 seconds
+[2024-03-13T08:39:16.810+0000] {processor.py:157} INFO - Started process (PID=211) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:39:16.830+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:39:16.870+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:39:16.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:39:16.921+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:39:16.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.204 seconds
+[2024-03-13T08:39:47.884+0000] {processor.py:157} INFO - Started process (PID=220) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:39:47.888+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:39:47.898+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:39:47.897+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:39:47.938+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:39:47.995+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.121 seconds
+[2024-03-13T08:40:19.116+0000] {processor.py:157} INFO - Started process (PID=230) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:40:19.148+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:40:19.183+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:40:19.182+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:40:19.335+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:40:19.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.474 seconds
+[2024-03-13T08:40:49.787+0000] {processor.py:157} INFO - Started process (PID=240) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:40:49.804+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:40:49.823+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:40:49.823+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:40:49.853+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:40:49.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.144 seconds
+[2024-03-13T08:41:20.499+0000] {processor.py:157} INFO - Started process (PID=251) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:41:20.516+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:41:20.556+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:41:20.556+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:41:20.693+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:41:20.900+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.414 seconds
+[2024-03-13T08:41:51.621+0000] {processor.py:157} INFO - Started process (PID=262) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:41:51.651+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:41:51.680+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:41:51.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:41:51.774+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:41:51.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.378 seconds
+[2024-03-13T08:42:22.509+0000] {processor.py:157} INFO - Started process (PID=272) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:42:22.517+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:42:22.539+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:42:22.538+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:42:22.565+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:42:22.610+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.113 seconds
+[2024-03-13T08:42:53.037+0000] {processor.py:157} INFO - Started process (PID=287) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:42:53.079+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:42:53.111+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:42:53.109+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:42:53.155+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:42:53.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.262 seconds
+[2024-03-13T08:43:24.093+0000] {processor.py:157} INFO - Started process (PID=297) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:43:24.134+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:43:24.223+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:43:24.223+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:43:24.457+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:43:24.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.491 seconds
+[2024-03-13T08:43:54.938+0000] {processor.py:157} INFO - Started process (PID=311) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:43:54.975+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:43:54.985+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:43:54.985+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:43:55.033+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:43:55.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.200 seconds
+[2024-03-13T08:44:25.918+0000] {processor.py:157} INFO - Started process (PID=326) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:44:25.926+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:44:25.972+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:44:25.967+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:44:26.075+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:44:26.378+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.500 seconds
+[2024-03-13T08:44:56.797+0000] {processor.py:157} INFO - Started process (PID=340) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:44:56.812+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:44:56.834+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:44:56.834+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:44:56.856+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:44:56.982+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.198 seconds
+[2024-03-13T08:45:27.845+0000] {processor.py:157} INFO - Started process (PID=350) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:45:27.935+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:45:28.048+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:45:28.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:45:28.395+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:45:28.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.830 seconds
+[2024-03-13T08:45:58.885+0000] {processor.py:157} INFO - Started process (PID=369) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:45:58.897+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:45:58.911+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:45:58.910+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:45:58.930+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:45:59.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.219 seconds
+[2024-03-13T08:46:29.897+0000] {processor.py:157} INFO - Started process (PID=379) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:46:29.904+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:46:29.930+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:46:29.929+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:46:29.960+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:46:30.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.164 seconds
+[2024-03-13T08:47:00.670+0000] {processor.py:157} INFO - Started process (PID=389) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:47:00.675+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:47:00.684+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:47:00.683+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:47:00.706+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:47:00.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.088 seconds
+[2024-03-13T08:47:32.430+0000] {processor.py:157} INFO - Started process (PID=400) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:47:32.434+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:47:32.467+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:47:32.463+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:47:32.616+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:47:33.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.681 seconds
+[2024-03-13T08:48:03.793+0000] {processor.py:157} INFO - Started process (PID=410) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:48:03.810+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:48:03.824+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:48:03.824+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:48:03.844+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:48:03.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.126 seconds
+[2024-03-13T08:48:34.108+0000] {processor.py:157} INFO - Started process (PID=421) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:48:34.124+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:48:34.133+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:48:34.132+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:48:34.166+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:48:34.213+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.117 seconds
+[2024-03-13T08:49:04.453+0000] {processor.py:157} INFO - Started process (PID=431) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:49:04.473+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:49:04.484+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:49:04.483+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:49:04.504+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:49:04.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.118 seconds
+[2024-03-13T08:49:35.151+0000] {processor.py:157} INFO - Started process (PID=440) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:49:35.157+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:49:35.165+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:49:35.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:49:35.180+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:49:35.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.070 seconds
+[2024-03-13T08:50:05.647+0000] {processor.py:157} INFO - Started process (PID=450) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:50:05.653+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:50:05.671+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:50:05.670+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:50:05.692+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:50:05.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.117 seconds
+[2024-03-13T08:50:36.168+0000] {processor.py:157} INFO - Started process (PID=459) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:50:36.173+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:50:36.182+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:50:36.182+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:50:36.199+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:50:36.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.084 seconds
+[2024-03-13T08:51:06.615+0000] {processor.py:157} INFO - Started process (PID=469) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:51:06.627+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:51:06.642+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:51:06.641+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:51:06.670+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:51:06.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.123 seconds
+[2024-03-13T08:51:37.046+0000] {processor.py:157} INFO - Started process (PID=479) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:51:37.052+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:51:37.059+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:51:37.058+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:51:37.076+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:51:37.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.068 seconds
+[2024-03-13T08:52:07.414+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:52:07.419+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:52:07.427+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:52:07.427+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:52:07.442+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:52:07.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.070 seconds
+[2024-03-13T08:52:37.624+0000] {processor.py:157} INFO - Started process (PID=499) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:52:37.628+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:52:37.639+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:52:37.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:52:37.654+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:52:37.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.064 seconds
+[2024-03-13T08:53:07.757+0000] {processor.py:157} INFO - Started process (PID=508) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:53:07.761+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:53:07.769+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:53:07.768+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:53:07.788+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:53:07.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.070 seconds
+[2024-03-13T08:53:38.406+0000] {processor.py:157} INFO - Started process (PID=518) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:53:38.416+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:53:38.431+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:53:38.430+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:53:38.486+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:53:38.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.207 seconds
+[2024-03-13T08:54:09.396+0000] {processor.py:157} INFO - Started process (PID=528) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:54:09.405+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:54:09.418+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:54:09.417+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:54:09.436+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:54:09.469+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.084 seconds
+[2024-03-13T08:54:40.128+0000] {processor.py:157} INFO - Started process (PID=538) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:54:40.134+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:54:40.142+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:54:40.141+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:54:40.156+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:54:40.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.064 seconds
+[2024-03-13T08:55:10.607+0000] {processor.py:157} INFO - Started process (PID=549) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:55:10.615+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:55:10.629+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:55:10.628+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:55:10.644+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:55:10.676+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.079 seconds
+[2024-03-13T08:55:41.466+0000] {processor.py:157} INFO - Started process (PID=566) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:55:41.472+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:55:41.481+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:55:41.480+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:55:41.498+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:55:41.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.066 seconds
+[2024-03-13T08:56:12.258+0000] {processor.py:157} INFO - Started process (PID=576) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:56:12.265+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:56:12.276+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:56:12.276+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:56:12.290+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:56:12.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.072 seconds
+[2024-03-13T08:56:42.973+0000] {processor.py:157} INFO - Started process (PID=586) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:56:42.979+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:56:42.990+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:56:42.989+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:56:43.011+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:56:43.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.078 seconds
+[2024-03-13T08:57:13.883+0000] {processor.py:157} INFO - Started process (PID=597) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:57:13.889+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T08:57:13.901+0000] {logging_mixin.py:149} INFO - [2024-03-13T08:57:13.901+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:57:13.918+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T08:57:13.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.076 seconds
+[2024-03-13T09:08:46.471+0000] {processor.py:157} INFO - Started process (PID=609) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:08:46.500+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:08:46.539+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:08:46.539+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:08:46.562+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:08:46.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.271 seconds
+[2024-03-13T09:09:17.537+0000] {processor.py:157} INFO - Started process (PID=620) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:09:17.542+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:09:17.558+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:09:17.558+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:09:17.598+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:09:17.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.106 seconds
+[2024-03-13T09:09:48.356+0000] {processor.py:157} INFO - Started process (PID=630) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:09:48.361+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:09:48.370+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:09:48.370+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:09:48.387+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:09:48.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.082 seconds
+[2024-03-13T09:10:19.153+0000] {processor.py:157} INFO - Started process (PID=640) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:10:19.157+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:10:19.165+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:10:19.164+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:10:19.179+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:10:19.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.068 seconds
+[2024-03-13T09:11:38.339+0000] {processor.py:157} INFO - Started process (PID=643) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:11:38.375+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:11:38.419+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:11:38.418+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:11:38.534+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:11:38.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.302 seconds
+[2024-03-13T09:15:26.983+0000] {processor.py:157} INFO - Started process (PID=665) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:15:27.135+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:15:27.208+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:15:27.208+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:15:27.344+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:15:27.399+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.439 seconds
+[2024-03-13T09:36:12.781+0000] {processor.py:157} INFO - Started process (PID=681) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:36:12.807+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T09:36:12.821+0000] {logging_mixin.py:149} INFO - [2024-03-13T09:36:12.821+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:36:12.877+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T09:36:12.991+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.261 seconds
+[2024-03-13T12:00:22.349+0000] {processor.py:157} INFO - Started process (PID=684) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T12:00:22.376+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T12:00:22.445+0000] {logging_mixin.py:149} INFO - [2024-03-13T12:00:22.444+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T12:00:22.560+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T12:00:22.695+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.370 seconds
+[2024-03-13T13:07:43.846+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:07:43.850+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:07:43.874+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:07:43.874+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:07:43.899+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:07:43.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.112 seconds
+[2024-03-13T13:08:17.376+0000] {processor.py:157} INFO - Started process (PID=54) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:08:17.395+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:08:17.413+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:08:17.413+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:08:17.507+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:08:17.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.211 seconds
+[2024-03-13T13:08:51.603+0000] {processor.py:157} INFO - Started process (PID=64) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:08:51.613+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:08:51.623+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:08:51.622+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:08:51.642+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:08:51.694+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.096 seconds
+[2024-03-13T13:09:22.382+0000] {processor.py:157} INFO - Started process (PID=73) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:09:22.385+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:09:22.390+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:09:22.390+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:09:22.404+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:09:22.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.053 seconds
+[2024-03-13T13:09:53.282+0000] {processor.py:157} INFO - Started process (PID=84) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:09:53.413+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:09:53.423+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:09:53.422+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:09:53.586+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:09:53.694+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.421 seconds
+[2024-03-13T13:10:24.063+0000] {processor.py:157} INFO - Started process (PID=94) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:10:24.067+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:10:24.076+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:10:24.076+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:10:24.089+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:10:24.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.055 seconds
+[2024-03-13T13:10:58.440+0000] {processor.py:157} INFO - Started process (PID=109) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:10:58.446+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:10:58.455+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:10:58.455+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:10:58.549+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:10:58.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.201 seconds
+[2024-03-13T13:11:36.880+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:11:36.977+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:11:37.025+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:11:37.001+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:11:37.130+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:11:37.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.379 seconds
+[2024-03-13T13:12:11.645+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:12:11.672+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:12:11.797+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:12:11.796+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:12:11.895+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:12:12.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.550 seconds
+[2024-03-13T13:12:45.563+0000] {processor.py:157} INFO - Started process (PID=150) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:12:45.583+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:12:45.627+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:12:45.619+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:12:45.755+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:12:45.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.389 seconds
+[2024-03-13T13:13:18.121+0000] {processor.py:157} INFO - Started process (PID=165) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:13:18.141+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:13:18.155+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:13:18.154+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:13:18.239+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:13:18.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.206 seconds
+[2024-03-13T13:13:53.001+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:13:53.018+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:13:53.248+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:13:53.169+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:13:53.457+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:13:53.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.835 seconds
+[2024-03-13T13:14:31.014+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:14:31.052+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:14:31.245+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:14:31.243+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:14:31.325+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:14:31.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.733 seconds
+[2024-03-13T13:15:03.292+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:15:03.309+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:15:03.408+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:15:03.405+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:15:03.528+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:15:03.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.554 seconds
+[2024-03-13T13:15:34.583+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:15:34.591+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:15:34.606+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:15:34.605+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:15:34.646+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:15:34.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.140 seconds
+[2024-03-13T13:16:05.631+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:16:05.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:16:05.694+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:16:05.694+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:16:05.741+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:16:05.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.225 seconds
+[2024-03-13T13:16:37.043+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:16:37.050+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:16:37.073+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:16:37.072+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:16:37.088+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:16:37.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.093 seconds
+[2024-03-13T13:17:07.545+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:17:07.556+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:17:07.571+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:17:07.571+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:17:07.654+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:17:07.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.228 seconds
+[2024-03-13T13:17:38.768+0000] {processor.py:157} INFO - Started process (PID=258) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:17:38.774+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:17:38.786+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:17:38.786+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:17:38.815+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:17:38.900+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.156 seconds
+[2024-03-13T13:18:09.871+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:18:09.877+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:18:09.909+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:18:09.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:18:09.972+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:18:10.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.372 seconds
+[2024-03-13T13:18:41.616+0000] {processor.py:157} INFO - Started process (PID=285) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:18:41.684+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:18:41.730+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:18:41.730+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:18:41.926+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:18:42.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.544 seconds
+[2024-03-13T13:19:12.585+0000] {processor.py:157} INFO - Started process (PID=295) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:19:12.604+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:19:12.650+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:19:12.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:19:12.877+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:19:13.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.484 seconds
+[2024-03-13T13:19:43.707+0000] {processor.py:157} INFO - Started process (PID=304) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:19:43.710+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:19:43.718+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:19:43.717+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:19:43.730+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:19:43.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.057 seconds
+[2024-03-13T13:20:14.305+0000] {processor.py:157} INFO - Started process (PID=323) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:20:14.308+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:20:14.322+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:20:14.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:20:14.342+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:20:14.371+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.075 seconds
+[2024-03-13T13:20:45.296+0000] {processor.py:157} INFO - Started process (PID=333) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:20:45.312+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:20:45.323+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:20:45.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:20:45.433+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:20:45.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.225 seconds
+[2024-03-13T13:21:15.863+0000] {processor.py:157} INFO - Started process (PID=342) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:21:15.867+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:21:15.875+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:21:15.875+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:21:15.891+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:21:15.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.069 seconds
+[2024-03-13T13:21:46.011+0000] {processor.py:157} INFO - Started process (PID=352) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:21:46.015+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:21:46.022+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:21:46.022+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:21:46.032+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:21:46.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.057 seconds
+[2024-03-13T13:22:16.635+0000] {processor.py:157} INFO - Started process (PID=362) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:22:16.638+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:22:16.645+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:22:16.645+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:22:16.656+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:22:16.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.049 seconds
+[2024-03-13T13:22:47.348+0000] {processor.py:157} INFO - Started process (PID=372) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:22:47.351+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:22:47.358+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:22:47.357+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:22:47.369+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:22:47.393+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.050 seconds
+[2024-03-13T13:23:17.742+0000] {processor.py:157} INFO - Started process (PID=383) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:23:17.747+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:23:17.752+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:23:17.752+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:23:17.762+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:23:17.783+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.047 seconds
+[2024-03-13T13:23:48.060+0000] {processor.py:157} INFO - Started process (PID=392) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:23:48.064+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:23:48.072+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:23:48.071+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:23:48.084+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:23:48.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.070 seconds
+[2024-03-13T13:24:18.586+0000] {processor.py:157} INFO - Started process (PID=402) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:24:18.592+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:24:18.601+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:24:18.601+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:24:18.623+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:24:18.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.082 seconds
+[2024-03-13T13:24:48.981+0000] {processor.py:157} INFO - Started process (PID=412) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:24:48.984+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:24:48.991+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:24:48.991+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:24:49.002+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:24:49.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.054 seconds
+[2024-03-13T13:25:19.318+0000] {processor.py:157} INFO - Started process (PID=426) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:25:19.322+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:25:19.329+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:25:19.328+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:25:19.338+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:25:19.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.052 seconds
+[2024-03-13T13:25:49.875+0000] {processor.py:157} INFO - Started process (PID=435) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:25:49.880+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:25:49.887+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:25:49.887+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:25:49.899+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:25:49.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.058 seconds
+[2024-03-13T13:26:20.702+0000] {processor.py:157} INFO - Started process (PID=445) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:26:20.719+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:26:20.731+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:26:20.731+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:26:20.758+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:26:20.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.148 seconds
+[2024-03-13T13:26:51.577+0000] {processor.py:157} INFO - Started process (PID=455) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:26:51.591+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:26:51.606+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:26:51.604+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:26:51.634+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:26:51.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.196 seconds
+[2024-03-13T13:27:22.492+0000] {processor.py:157} INFO - Started process (PID=471) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:27:22.496+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:27:22.502+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:27:22.501+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:27:22.525+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:27:22.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.064 seconds
+[2024-03-13T13:27:52.729+0000] {processor.py:157} INFO - Started process (PID=480) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:27:52.733+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:27:52.745+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:27:52.744+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:27:52.757+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:27:52.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.066 seconds
+[2024-03-13T13:28:23.247+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:28:23.252+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:28:23.260+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:28:23.260+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:28:23.273+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:28:23.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.053 seconds
+[2024-03-13T13:28:53.754+0000] {processor.py:157} INFO - Started process (PID=500) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:28:53.757+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:28:53.762+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:28:53.762+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:28:53.775+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:28:53.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.051 seconds
+[2024-03-13T13:29:24.423+0000] {processor.py:157} INFO - Started process (PID=512) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:29:24.452+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:29:24.483+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:29:24.482+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:29:24.527+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:29:24.566+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.184 seconds
+[2024-03-13T13:29:54.942+0000] {processor.py:157} INFO - Started process (PID=527) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:29:54.962+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:29:55.001+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:29:55.000+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:29:55.044+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:29:55.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.313 seconds
+[2024-03-13T13:30:25.602+0000] {processor.py:157} INFO - Started process (PID=553) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:30:25.614+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:30:25.621+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:30:25.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:30:25.650+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:30:25.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.132 seconds
+[2024-03-13T13:30:55.992+0000] {processor.py:157} INFO - Started process (PID=572) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:30:55.996+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:30:56.001+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:30:56.001+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:30:56.014+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:30:56.035+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.049 seconds
+[2024-03-13T13:31:26.623+0000] {processor.py:157} INFO - Started process (PID=582) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:31:26.627+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:31:26.633+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:31:26.633+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:31:26.643+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:31:26.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.051 seconds
+[2024-03-13T13:31:57.229+0000] {processor.py:157} INFO - Started process (PID=592) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:31:57.234+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:31:57.239+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:31:57.239+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:31:57.249+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:31:57.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.049 seconds
+[2024-03-13T13:32:27.866+0000] {processor.py:157} INFO - Started process (PID=603) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:32:27.870+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:32:27.877+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:32:27.877+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:32:27.887+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:32:27.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.051 seconds
+[2024-03-13T13:32:58.505+0000] {processor.py:157} INFO - Started process (PID=613) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:32:58.509+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:32:58.514+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:32:58.513+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:32:58.524+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:32:58.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.047 seconds
+[2024-03-13T13:33:29.240+0000] {processor.py:157} INFO - Started process (PID=623) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:33:29.248+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:33:29.255+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:33:29.255+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:33:29.268+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:33:29.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.070 seconds
+[2024-03-13T13:33:59.840+0000] {processor.py:157} INFO - Started process (PID=647) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:33:59.851+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:33:59.868+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:33:59.864+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:33:59.892+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:33:59.954+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.126 seconds
+[2024-03-13T13:34:30.703+0000] {processor.py:157} INFO - Started process (PID=676) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:34:30.715+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:34:30.726+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:34:30.725+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:34:30.755+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:34:30.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.105 seconds
+[2024-03-13T13:35:01.076+0000] {processor.py:157} INFO - Started process (PID=693) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:35:01.079+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:35:01.091+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:35:01.090+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:35:01.109+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:35:01.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.081 seconds
+[2024-03-13T13:35:31.992+0000] {processor.py:157} INFO - Started process (PID=703) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:35:32.005+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:35:32.037+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:35:32.036+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:35:32.082+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:35:32.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.186 seconds
+[2024-03-13T13:36:02.521+0000] {processor.py:157} INFO - Started process (PID=713) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:36:02.524+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:36:02.530+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:36:02.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:36:02.545+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:36:02.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.058 seconds
+[2024-03-13T13:36:33.311+0000] {processor.py:157} INFO - Started process (PID=723) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:36:33.316+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:36:33.322+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:36:33.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:36:33.343+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:36:33.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.073 seconds
+[2024-03-13T13:37:03.956+0000] {processor.py:157} INFO - Started process (PID=733) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:37:03.960+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:37:03.966+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:37:03.966+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:37:03.983+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:37:04.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.065 seconds
+[2024-03-13T13:37:34.520+0000] {processor.py:157} INFO - Started process (PID=742) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:37:34.524+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:37:34.530+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:37:34.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:37:34.543+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:37:34.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.057 seconds
+[2024-03-13T13:38:04.675+0000] {processor.py:157} INFO - Started process (PID=750) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:38:04.682+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:38:04.698+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:38:04.698+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:38:04.722+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:38:04.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.093 seconds
+[2024-03-13T13:38:34.891+0000] {processor.py:157} INFO - Started process (PID=761) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:38:34.898+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:38:34.909+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:38:34.908+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:38:34.930+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:38:34.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.118 seconds
+[2024-03-13T13:39:05.899+0000] {processor.py:157} INFO - Started process (PID=772) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:39:05.908+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:39:05.928+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:39:05.927+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:39:05.956+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:39:05.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.117 seconds
+[2024-03-13T13:39:36.434+0000] {processor.py:157} INFO - Started process (PID=782) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:39:36.443+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:39:36.457+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:39:36.457+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:39:36.495+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:39:36.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.114 seconds
+[2024-03-13T13:40:07.253+0000] {processor.py:157} INFO - Started process (PID=792) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:40:07.258+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:40:07.268+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:40:07.267+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:40:07.281+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:40:07.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.070 seconds
+[2024-03-13T13:40:37.941+0000] {processor.py:157} INFO - Started process (PID=802) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:40:37.951+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:40:37.961+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:40:37.960+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:40:37.977+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:40:38.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.081 seconds
+[2024-03-13T13:41:08.633+0000] {processor.py:157} INFO - Started process (PID=811) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:41:08.639+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:41:08.649+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:41:08.648+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:41:08.668+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:41:08.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.074 seconds
+[2024-03-13T13:41:39.376+0000] {processor.py:157} INFO - Started process (PID=821) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:41:39.386+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:41:39.395+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:41:39.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:41:39.410+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:41:39.436+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.067 seconds
+[2024-03-13T13:42:10.111+0000] {processor.py:157} INFO - Started process (PID=831) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:42:10.117+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:42:10.126+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:42:10.125+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:42:10.138+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:42:10.172+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.069 seconds
+[2024-03-13T13:42:40.982+0000] {processor.py:157} INFO - Started process (PID=841) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:42:40.987+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:42:40.997+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:42:40.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:42:41.011+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:42:41.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.065 seconds
+[2024-03-13T13:43:11.812+0000] {processor.py:157} INFO - Started process (PID=851) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:43:11.819+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:43:11.830+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:43:11.829+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:43:11.846+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:43:11.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.075 seconds
+[2024-03-13T13:43:42.533+0000] {processor.py:157} INFO - Started process (PID=861) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:43:42.539+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:43:42.555+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:43:42.555+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:43:42.571+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:43:42.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.077 seconds
+[2024-03-13T13:44:13.367+0000] {processor.py:157} INFO - Started process (PID=871) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:44:13.377+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:44:13.389+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:44:13.388+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:44:13.417+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:44:13.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.089 seconds
+[2024-03-13T13:44:44.172+0000] {processor.py:157} INFO - Started process (PID=881) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:44:44.176+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:44:44.185+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:44:44.184+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:44:44.200+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:44:44.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.067 seconds
+[2024-03-13T13:45:14.901+0000] {processor.py:157} INFO - Started process (PID=890) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:45:14.907+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:45:14.919+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:45:14.919+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:45:14.942+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:45:14.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.105 seconds
+[2024-03-13T13:45:45.130+0000] {processor.py:157} INFO - Started process (PID=901) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:45:45.135+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:45:45.145+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:45:45.144+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:45:45.162+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:45:45.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.069 seconds
+[2024-03-13T13:46:15.329+0000] {processor.py:157} INFO - Started process (PID=911) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:46:15.336+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:46:15.346+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:46:15.345+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:46:15.363+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:46:15.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.075 seconds
+[2024-03-13T13:46:45.716+0000] {processor.py:157} INFO - Started process (PID=921) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:46:45.720+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:46:45.728+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:46:45.728+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:46:45.742+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:46:45.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.066 seconds
+[2024-03-13T13:47:15.922+0000] {processor.py:157} INFO - Started process (PID=931) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:47:15.928+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:47:15.939+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:47:15.939+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:47:15.960+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:47:16.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.088 seconds
+[2024-03-13T13:47:46.596+0000] {processor.py:157} INFO - Started process (PID=941) to work on /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:47:46.614+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py for tasks to queue
+[2024-03-13T13:47:46.663+0000] {logging_mixin.py:149} INFO - [2024-03-13T13:47:46.662+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:47:46.740+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py
+[2024-03-13T13:47:46.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/data-university-from-api-dag/data_university_from_api_dag.py took 0.434 seconds
