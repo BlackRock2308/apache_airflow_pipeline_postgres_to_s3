@@ -1,9 +1,0 @@
-{
-"aws_secret_access_key": "Your secret key",
-"aws_access_key_id":"Your access key",
-"service_name":"s3",
-"region_name":"us-west-2",
-"bucket_name":"groot-apache-airflow-bucket",
-"file_name":"data_university.csv"
-
-}
