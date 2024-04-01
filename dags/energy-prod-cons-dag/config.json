@@ -1,6 +1,6 @@
 {
-    "aws_secret_access_key": "fAYO3hvc2Ax5Gw8P4WrTZiegsaXwL4nQUII7CcXL",
-    "aws_access_key_id": "AKIA5MHZZK2DPWXU2UTB",
+    "aws_secret_access_key": "******",
+    "aws_access_key_id": "******",
     "service_name":"s3",
     "region_name": "eu-west-3",
     "bucket_name": "data-engineering-project-siad",
