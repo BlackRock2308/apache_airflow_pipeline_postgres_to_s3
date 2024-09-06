@@ -58,8 +58,6 @@ def load_conso_energy_region(**kwargs):
 
         df_conso_energy_region['conso / pdl'] = df_conso_energy_region.apply(lambda row: row['conso'] / row['pdl'] if row['pdl'] != 0 else 0, axis=1)
 
-        # CHANGER LA COLONNE 'code_region' DE OBJECT A INT64
-        # df_conso_energy_region['code_region'] = pd.to_numeric(df_conso_energy_region['code_region'], errors='coerce').astype('Int64')
         # Convert 'code_region' column to numeric, coercing errors to NaN
         df_conso_energy_region['code_region'] = pd.to_numeric(df_conso_energy_region['code_region'], errors='coerce')
 
@@ -988,24 +986,6 @@ with DAG('EnergyWarehouse', schedule_interval=timedelta(days=1), default_args=de
         )
 
 
-
-    # load_dataset_ayam = GCSToBigQueryOperator(
-    #     task_id = 'load_dataset_ayam',
-    #     bucket = BUCKET_NAME,
-    #     source_objects = ['recipe/ayam.csv'],
-    #     destination_project_dataset_table = f'{PROJECT_ID}:{STAGING_DATASET}.dataset_ayam',
-    #     write_disposition='WRITE_TRUNCATE',
-    #     source_format = 'csv',
-    #     allow_quoted_newlines = 'true',
-    #     skip_leading_rows = 1,
-    #     schema_fields=[
-    #     {'name': 'Title', 'type': 'STRING', 'mode': 'REQUIRED'},
-    #     {'name': 'Ingredients', 'type': 'STRING', 'mode': 'NULLABLE'},
-    #     {'name': 'Steps', 'type': 'STRING', 'mode': 'NULLABLE'},
-    #     {'name': 'Loves', 'type': 'INTEGER', 'mode': 'NULLABLE'},
-    #     {'name': 'URL', 'type': 'STRING', 'mode': 'NULLABLE'},
-    #         ]
-    #     )
 
     create_D_Table = DummyOperator(
             task_id = 'Create_D_Table',
